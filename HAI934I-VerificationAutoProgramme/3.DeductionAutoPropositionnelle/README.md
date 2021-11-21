@@ -1,0 +1,3 @@
+- [MiniSatURL](https://jgalenson.github.io/research.js/demos/minisat.html)
+- [Format DIMACSURL](https://people.sc.fsu.edu/~jburkardt/data/cnf/cnf.html)
+- [LimbooleURL](http://fmv.jku.at/limboole/)

@@ -1,0 +1,4 @@
+(((PC1 & TC2) & !((PC1 & TC2) | (PC2 & TC1))) |
+(((PC1 & TC2) | (PC2 & TC1)) & !(PC1 & TC2))) &
+(PC1 | TC1) & !(PC1 & TC1) & (PC2 | TC2) & !(PC2 & TC2) ->
+(TC1 & PC2)
