@@ -1,0 +1,4 @@
+<0> flies,feathered,sea-habitat,wood-habitat,eats-fish,water-habitat => nocturnal,migratory,red-bill,elytra,six-legged
+<0> flies,feathered,elytra,six-legged => nocturnal,migratory,red-bill,sea-habitat,wood-habitat,eats-fish,water-habitat
+<0> flies,nocturnal,elytra,six-legged => feathered,migratory,red-bill,sea-habitat,wood-habitat,eats-fish,water-habitat
+<0> flies,nocturnal,feathered => migratory,red-bill,elytra,sea-habitat,wood-habitat,six-legged,eats-fish,water-habitat

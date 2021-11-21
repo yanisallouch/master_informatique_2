@@ -1,0 +1,7 @@
+#mapping v1 wsdbm:Topic uniform
+#mapping v2 wsdbm:Website uniform
+
+SELECT ?v0  WHERE {
+	?v0	og:tag	%v1% .
+	?v0	foaf:homepage	%v2% .
+}

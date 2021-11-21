@@ -1,0 +1,4 @@
+#mapping v1 wsdbm:Country uniform
+SELECT ?v0 WHERE {
+	?v0	sorg:nationality	%v1% .
+}

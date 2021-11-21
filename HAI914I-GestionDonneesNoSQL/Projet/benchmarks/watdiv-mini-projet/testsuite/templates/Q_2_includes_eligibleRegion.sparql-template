@@ -1,0 +1,7 @@
+#mapping v1 wsdbm:Product uniform
+#mapping v2 wsdbm:Country uniform
+
+SELECT ?v0 WHERE {
+	?v0	gr:includes	%v1% .
+	?v0	sorg:eligibleRegion	%v2% .
+}

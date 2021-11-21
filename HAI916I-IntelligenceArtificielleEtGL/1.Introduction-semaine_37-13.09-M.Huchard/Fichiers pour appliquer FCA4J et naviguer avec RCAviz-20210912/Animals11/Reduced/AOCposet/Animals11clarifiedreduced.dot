@@ -1,0 +1,24 @@
+digraph G { 
+	rankdir=BT;
+0 [shape=record,style=filled,label="{0 (I: 5, E: 1)||arctic-tern\n}"];
+1 [shape=record,style=filled,label="{1 (I: 4, E: 2)|migratory\n|greater-flamingo\n}"];
+2 [shape=record,style=filled,label="{2 (I: 4, E: 2)|red-bill\n|silver-gull\n}"];
+3 [shape=record,style=filled,label="{3 (I: 3, E: 1)|wood-habitat\n|wood-pecker\n}"];
+4 [shape=record,style=filled,label="{4 (I: 2, E: 1)|elytra\n|ladybird\n}"];
+5 [shape=record,style=filled,label="{5 (I: 2, E: 1)|nocturnal\n|bat\n}"];
+6 [shape=record,style=filled,label="{6 (I: 1, E: 5)|feathered\n|ostrich\n}"];
+7 [shape=record,style=filled,label="{7 (I: 1, E: 4)|eats-fish\n|giant-otter\n}"];
+8 [shape=record,style=filled,fillcolor=lightblue,label="{8 (I: 1, E: 6)|flies\n|}"];
+	0 -> 1
+	0 -> 2
+	1 -> 6
+	1 -> 7
+	1 -> 8
+	2 -> 6
+	2 -> 7
+	2 -> 8
+	3 -> 6
+	3 -> 8
+	4 -> 8
+	5 -> 8
+}

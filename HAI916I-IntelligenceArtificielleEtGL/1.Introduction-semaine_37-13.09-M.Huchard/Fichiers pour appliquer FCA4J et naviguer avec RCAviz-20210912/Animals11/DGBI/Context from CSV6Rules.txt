@@ -1,0 +1,2 @@
+<6> water-habitat => eats-fish
+<6> eats-fish => water-habitat

@@ -1,0 +1,5 @@
+#mapping v2 wsdbm:Product uniform
+SELECT ?v0  WHERE {
+	?v0	wsdbm:likes		%v2% .
+}
+

@@ -1,0 +1,9 @@
+#mapping v1 wsdbm:City zipfian
+#mapping v2 wsdbm:Country zipfian
+#mapping v3 wsdbm:Gender uniform
+
+SELECT ?v0 WHERE {
+	?v0	dc:Location	%v1% .
+	?v0	wsdbm:gender	%v3% .
+	?v0	rdf:type	wsdbm:Role2 .
+}

@@ -1,0 +1,205 @@
+[
+{
+"attributes": {},
+"children": [
+14,
+18,
+25
+],
+"context": "Animals",
+"id": 13,
+"objects": [],
+"parents": []
+},
+{
+"attributes": {
+"feathered": "feathered"
+},
+"children": [
+17
+],
+"context": "Animals",
+"id": 18,
+"objects": [
+"ostrich"
+],
+"parents": [
+13
+]
+},
+{
+"attributes": {
+"flies": "flies"
+},
+"children": [
+15,
+17,
+22
+],
+"context": "Animals",
+"id": 14,
+"objects": [],
+"parents": [
+13
+]
+},
+{
+"attributes": {
+"eats-fish": "eats-fish",
+"water-habitat": "water-habitat"
+},
+"children": [
+23
+],
+"context": "Animals",
+"id": 25,
+"objects": [
+"giant-otter"
+],
+"parents": [
+13
+]
+},
+{
+"attributes": {},
+"children": [
+23,
+24
+],
+"context": "Animals",
+"id": 17,
+"objects": [],
+"parents": [
+14,
+18
+]
+},
+{
+"attributes": {
+"sea-habitat": "sea-habitat"
+},
+"children": [
+19,
+21
+],
+"context": "Animals",
+"id": 23,
+"objects": [
+"great-auk"
+],
+"parents": [
+17,
+25
+]
+},
+{
+"attributes": {
+"red-bill": "red-bill"
+},
+"children": [
+20
+],
+"context": "Animals",
+"id": 21,
+"objects": [
+"silver-gull"
+],
+"parents": [
+23
+]
+},
+{
+"attributes": {
+"migratory": "migratory"
+},
+"children": [
+20
+],
+"context": "Animals",
+"id": 19,
+"objects": [
+"greater-flamingo",
+"little-tern"
+],
+"parents": [
+23
+]
+},
+{
+"attributes": {
+"wood-habitat": "wood-habitat"
+},
+"children": [
+16
+],
+"context": "Animals",
+"id": 24,
+"objects": [
+"wood-pecker"
+],
+"parents": [
+17
+]
+},
+{
+"attributes": {
+"elytra": "elytra",
+"six-legged": "six-legged"
+},
+"children": [
+16
+],
+"context": "Animals",
+"id": 22,
+"objects": [
+"ladybird"
+],
+"parents": [
+14
+]
+},
+{
+"attributes": {},
+"children": [
+16
+],
+"context": "Animals",
+"id": 20,
+"objects": [
+"arctic-tern"
+],
+"parents": [
+19,
+21
+]
+},
+{
+"attributes": {
+"nocturnal": "nocturnal"
+},
+"children": [
+16
+],
+"context": "Animals",
+"id": 15,
+"objects": [
+"bat"
+],
+"parents": [
+14
+]
+},
+{
+"attributes": {},
+"children": [],
+"context": "Animals",
+"id": 16,
+"objects": [],
+"parents": [
+15,
+20,
+22,
+24
+]
+}
+]

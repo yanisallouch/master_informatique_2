@@ -1,0 +1,30 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix animal: <http://www.ex.fr/animal#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+animal:Personnage  rdfs:subClassOf  rdfs:Class .
+
+animal:Tom  a           animal:Chat ;
+        rdfs:label      "Tom" ;
+        animal:age      "4"^^xsd:int ;
+        animal:couleur  "gris" .
+
+animal:Canari  rdfs:subClassOf  animal:Personnage .
+
+animal:Chat  rdfs:subClassOf  animal:Personnage , rdfs:Class .
+
+animal:Souris  rdfs:subClassOf  animal:Personnage .
+
+animal:Jerry  a         animal:Souris ;
+        rdfs:label      "Jerry" ;
+        animal:age      "2"^^xsd:int ;
+        animal:couleur  "beige" .
+
+animal:Sylvester  a     animal:Chat ;
+        rdfs:label      "Sylvester" ;
+        animal:couleur  "noir" , "blanc" .
+
+animal:Tweety  a        animal:Canari ;
+        rdfs:label      "Titi" ;
+        animal:couleur  "jaune" .

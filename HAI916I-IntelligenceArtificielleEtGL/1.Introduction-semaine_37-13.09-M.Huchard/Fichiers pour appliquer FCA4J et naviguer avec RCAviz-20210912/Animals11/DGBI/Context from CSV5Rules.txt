@@ -1,0 +1,3 @@
+<5> sea-habitat => flies,feathered,eats-fish,water-habitat
+<5> feathered,eats-fish,water-habitat => flies,sea-habitat
+<5> flies,eats-fish,water-habitat => feathered,sea-habitat

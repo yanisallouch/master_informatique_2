@@ -1,0 +1,287 @@
+2021-10-01 13:39:16.246+0000 WARN [o.n.k.i.JvmChecker] You are using an unsupported version of the Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 8, OpenJDK(TM) 8 or IBM J9.
+2021-10-01 13:39:16.282+0000 WARN [o.n.i.p.PageCache] The dbms.memory.pagecache.size setting has not been configured. It is recommended that this setting is always explicitly configured, to ensure the system has a balanced configuration. Until then, a computed heuristic value of 6201968640 bytes will be used instead. Run `neo4j-admin memrec` for memory configuration suggestions.
+2021-10-01 13:39:16.552+0000 INFO [o.n.g.f.m.e.CommunityEditionModule] No locking implementation specified, defaulting to 'community'
+2021-10-01 13:39:16.709+0000 INFO [o.n.g.f.GraphDatabaseFacadeFactory] Creating 'graph.db' database.
+2021-10-01 13:39:16.760+0000 INFO [o.n.k.a.DatabaseAvailabilityGuard] Requirement `Database available` makes database graph.db unavailable.
+2021-10-01 13:39:16.761+0000 INFO [o.n.k.a.DatabaseAvailabilityGuard] Database graph.db is unavailable.
+2021-10-01 13:39:16.778+0000 INFO [o.n.i.d.DiagnosticsManager] --- INITIALIZED diagnostics START ---
+2021-10-01 13:39:16.778+0000 INFO [o.n.i.d.DiagnosticsManager] Neo4j Kernel properties:
+2021-10-01 13:39:16.778+0000 INFO [o.n.i.d.DiagnosticsManager] unsupported.dbms.directories.neo4j_home=C:\Users\BenjaminLaroche\eclipse-workspace-2021-09\neo4jnosql\src\main\java\com\yanisallouch\neo4jnosql
+2021-10-01 13:39:16.778+0000 INFO [o.n.i.d.DiagnosticsManager] dbms.active_database=graph.db
+2021-10-01 13:39:16.778+0000 INFO [o.n.i.d.DiagnosticsManager] unsupported.dbms.directories.databases.root=C:\Users\BenjaminLaroche\eclipse-workspace-2021-09\neo4jnosql\src\main\java\com\yanisallouch\neo4jnosql
+2021-10-01 13:39:16.779+0000 INFO [o.n.i.d.DiagnosticsManager] unsupported.dbms.edition=community
+2021-10-01 13:39:16.779+0000 INFO [o.n.i.d.DiagnosticsManager] unsupported.dbms.ephemeral=false
+2021-10-01 13:39:16.779+0000 INFO [o.n.i.d.DiagnosticsManager] Diagnostics providers:
+2021-10-01 13:39:16.779+0000 INFO [o.n.i.d.DiagnosticsManager] org.neo4j.kernel.configuration.Config
+2021-10-01 13:39:16.779+0000 INFO [o.n.i.d.DiagnosticsManager] org.neo4j.internal.diagnostics.DiagnosticsManager
+2021-10-01 13:39:16.779+0000 INFO [o.n.i.d.DiagnosticsManager] SYSTEM_MEMORY
+2021-10-01 13:39:16.779+0000 INFO [o.n.i.d.DiagnosticsManager] JAVA_MEMORY
+2021-10-01 13:39:16.779+0000 INFO [o.n.i.d.DiagnosticsManager] OPERATING_SYSTEM
+2021-10-01 13:39:16.779+0000 INFO [o.n.i.d.DiagnosticsManager] JAVA_VIRTUAL_MACHINE
+2021-10-01 13:39:16.779+0000 INFO [o.n.i.d.DiagnosticsManager] CLASSPATH
+2021-10-01 13:39:16.779+0000 INFO [o.n.i.d.DiagnosticsManager] LIBRARY_PATH
+2021-10-01 13:39:16.779+0000 INFO [o.n.i.d.DiagnosticsManager] SYSTEM_PROPERTIES
+2021-10-01 13:39:16.779+0000 INFO [o.n.i.d.DiagnosticsManager] TIMEZONE_DATABASE
+2021-10-01 13:39:16.779+0000 INFO [o.n.i.d.DiagnosticsManager] NETWORK
+2021-10-01 13:39:16.779+0000 INFO [o.n.i.d.DiagnosticsManager] System memory information:
+2021-10-01 13:39:16.782+0000 INFO [o.n.i.d.DiagnosticsManager] Total Physical memory: 15.40 GB
+2021-10-01 13:39:16.782+0000 INFO [o.n.i.d.DiagnosticsManager] Free Physical memory: 9.03 GB
+2021-10-01 13:39:16.782+0000 INFO [o.n.i.d.DiagnosticsManager] Committed virtual memory: 214.63 MB
+2021-10-01 13:39:16.783+0000 INFO [o.n.i.d.DiagnosticsManager] Total swap space: 17.78 GB
+2021-10-01 13:39:16.783+0000 INFO [o.n.i.d.DiagnosticsManager] Free swap space: 8.70 GB
+2021-10-01 13:39:16.783+0000 INFO [o.n.i.d.DiagnosticsManager] JVM memory information:
+2021-10-01 13:39:16.783+0000 INFO [o.n.i.d.DiagnosticsManager] Free  memory: 41.88 MB
+2021-10-01 13:39:16.783+0000 INFO [o.n.i.d.DiagnosticsManager] Total memory: 80.00 MB
+2021-10-01 13:39:16.783+0000 INFO [o.n.i.d.DiagnosticsManager] Max   memory: 3.85 GB
+2021-10-01 13:39:16.792+0000 INFO [o.n.i.d.DiagnosticsManager] Garbage Collector: G1 Young Generation: [G1 Eden Space, G1 Survivor Space, G1 Old Gen]
+2021-10-01 13:39:16.792+0000 INFO [o.n.i.d.DiagnosticsManager] Garbage Collector: G1 Old Generation: [G1 Eden Space, G1 Survivor Space, G1 Old Gen]
+2021-10-01 13:39:16.793+0000 INFO [o.n.i.d.DiagnosticsManager] Memory Pool: CodeHeap 'non-nmethods' (Non-heap memory): committed=2.44 MB, used=1.18 MB, max=5.63 MB, threshold=0.00 B
+2021-10-01 13:39:16.794+0000 INFO [o.n.i.d.DiagnosticsManager] Memory Pool: Metaspace (Non-heap memory): committed=24.31 MB, used=24.04 MB, max=-1.00 B, threshold=0.00 B
+2021-10-01 13:39:16.794+0000 INFO [o.n.i.d.DiagnosticsManager] Memory Pool: CodeHeap 'profiled nmethods' (Non-heap memory): committed=3.88 MB, used=3.81 MB, max=117.19 MB, threshold=0.00 B
+2021-10-01 13:39:16.794+0000 INFO [o.n.i.d.DiagnosticsManager] Memory Pool: Compressed Class Space (Non-heap memory): committed=2.69 MB, used=2.54 MB, max=1.00 GB, threshold=0.00 B
+2021-10-01 13:39:16.794+0000 INFO [o.n.i.d.DiagnosticsManager] Memory Pool: G1 Eden Space (Heap memory): committed=58.00 MB, used=18.00 MB, max=-1.00 B, threshold=?
+2021-10-01 13:39:16.795+0000 INFO [o.n.i.d.DiagnosticsManager] Memory Pool: G1 Old Gen (Heap memory): committed=18.00 MB, used=17.91 MB, max=3.85 GB, threshold=0.00 B
+2021-10-01 13:39:16.796+0000 INFO [o.n.i.d.DiagnosticsManager] Memory Pool: G1 Survivor Space (Heap memory): committed=4.00 MB, used=2.21 MB, max=-1.00 B, threshold=?
+2021-10-01 13:39:16.796+0000 INFO [o.n.i.d.DiagnosticsManager] Memory Pool: CodeHeap 'non-profiled nmethods' (Non-heap memory): committed=2.44 MB, used=810.88 kB, max=117.19 MB, threshold=0.00 B
+2021-10-01 13:39:16.797+0000 INFO [o.n.i.d.DiagnosticsManager] Operating system information:
+2021-10-01 13:39:16.797+0000 INFO [o.n.i.d.DiagnosticsManager] Operating System: Windows 10; version: 10.0; arch: amd64; cpus: 6
+2021-10-01 13:39:16.811+0000 INFO [o.n.i.d.DiagnosticsManager] Process id: 10248@DESKTOP-NTBQ0JQ
+2021-10-01 13:39:16.811+0000 INFO [o.n.i.d.DiagnosticsManager] Byte order: LITTLE_ENDIAN
+2021-10-01 13:39:16.828+0000 INFO [o.n.i.d.DiagnosticsManager] Local timezone: Europe/Paris
+2021-10-01 13:39:16.828+0000 INFO [o.n.i.d.DiagnosticsManager] JVM information:
+2021-10-01 13:39:16.828+0000 INFO [o.n.i.d.DiagnosticsManager] VM Name: OpenJDK 64-Bit Server VM
+2021-10-01 13:39:16.828+0000 INFO [o.n.i.d.DiagnosticsManager] VM Vendor: Oracle Corporation
+2021-10-01 13:39:16.828+0000 INFO [o.n.i.d.DiagnosticsManager] VM Version: 16.0.2+7-67
+2021-10-01 13:39:16.828+0000 INFO [o.n.i.d.DiagnosticsManager] JIT compiler: HotSpot 64-Bit Tiered Compilers
+2021-10-01 13:39:16.828+0000 INFO [o.n.i.d.DiagnosticsManager] VM Arguments: [-Dfile.encoding=UTF-8, -XX:+ShowCodeDetailsInExceptionMessages]
+2021-10-01 13:39:16.829+0000 INFO [o.n.i.d.DiagnosticsManager] Java classpath:
+2021-10-01 13:39:16.871+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\org\apache\lucene\lucene-analyzers-common\5.5.5\lucene-analyzers-common-5.5.5.jar
+2021-10-01 13:39:16.871+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\org\neo4j\neo4j-command-line\3.5.21\neo4j-command-line-3.5.21.jar
+2021-10-01 13:39:16.871+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\net\sf\opencsv\opencsv\2.3\opencsv-2.3.jar
+2021-10-01 13:39:16.871+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\org\neo4j\neo4j-expressions-3.5\3.5.21\neo4j-expressions-3.5-3.5.21.jar
+2021-10-01 13:39:16.871+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\org\apache\lucene\lucene-queryparser\5.5.5\lucene-queryparser-5.5.5.jar
+2021-10-01 13:39:16.871+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\org\neo4j\neo4j-cypher-planner-spi-3.5\3.5.21\neo4j-cypher-planner-spi-3.5-3.5.21.jar
+2021-10-01 13:39:16.871+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\org\neo4j\neo4j-ssl\3.5.21\neo4j-ssl-3.5.21.jar
+2021-10-01 13:39:16.872+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\org\neo4j\neo4j-graphdb-api\3.5.21\neo4j-graphdb-api-3.5.21.jar
+2021-10-01 13:39:16.872+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\org\apache\lucene\lucene-core\5.5.5\lucene-core-5.5.5.jar
+2021-10-01 13:39:16.872+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\org\parboiled\parboiled-scala_2.11\1.1.7\parboiled-scala_2.11-1.1.7.jar
+2021-10-01 13:39:16.872+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\org\neo4j\neo4j-front-end-3.5\3.5.21\neo4j-front-end-3.5-3.5.21.jar
+2021-10-01 13:39:16.872+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\org\neo4j\neo4j-bolt\3.5.21\neo4j-bolt-3.5.21.jar
+2021-10-01 13:39:16.872+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\org\neo4j\neo4j-graph-algo\3.5.21\neo4j-graph-algo-3.5.21.jar
+2021-10-01 13:39:16.872+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\org\neo4j\neo4j-lucene-upgrade\3.5.21\neo4j-lucene-upgrade-3.5.21.jar
+2021-10-01 13:39:16.872+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\org\neo4j\neo4j-configuration\3.5.21\neo4j-configuration-3.5.21.jar
+2021-10-01 13:39:16.872+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\org\neo4j\neo4j\3.5.21\neo4j-3.5.21.jar
+2021-10-01 13:39:16.872+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\org\neo4j\neo4j-util-3.5\3.5.21\neo4j-util-3.5-3.5.21.jar
+2021-10-01 13:39:16.872+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\org\neo4j\neo4j-cypher-planner-spi-3.4\3.4.18\neo4j-cypher-planner-spi-3.4-3.4.18.jar
+2021-10-01 13:39:16.872+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\com\github\luben\zstd-jni\1.3.8-6\zstd-jni-1.3.8-6.jar
+2021-10-01 13:39:16.872+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\org\apache\commons\commons-lang3\3.8\commons-lang3-3.8.jar
+2021-10-01 13:39:16.872+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\org\neo4j\neo4j-unsafe\3.5.21\neo4j-unsafe-3.5.21.jar
+2021-10-01 13:39:16.872+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\org\neo4j\neo4j-cypher-compiler-2.3\2.3.12\neo4j-cypher-compiler-2.3-2.3.12.jar
+2021-10-01 13:39:16.872+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\org\neo4j\neo4j-cypher-planner-3.4\3.4.18\neo4j-cypher-planner-3.4-3.4.18.jar
+2021-10-01 13:39:16.872+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\io\netty\netty-all\4.1.48.Final\netty-all-4.1.48.Final.jar
+2021-10-01 13:39:16.872+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar
+2021-10-01 13:39:16.872+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\org\neo4j\neo4j-cypher-runtime-util\3.5.21\neo4j-cypher-runtime-util-3.5.21.jar
+2021-10-01 13:39:16.872+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\com\googlecode\concurrentlinkedhashmap\concurrentlinkedhashmap-lru\1.4.2\concurrentlinkedhashmap-lru-1.4.2.jar
+2021-10-01 13:39:16.873+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\org\neo4j\neo4j-dbms\3.5.21\neo4j-dbms-3.5.21.jar
+2021-10-01 13:39:16.873+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\org\neo4j\neo4j-cypher-ir-3.4\3.4.18\neo4j-cypher-ir-3.4-3.4.18.jar
+2021-10-01 13:39:16.873+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\org\neo4j\neo4j-fulltext-index\3.5.21\neo4j-fulltext-index-3.5.21.jar
+2021-10-01 13:39:16.873+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\org\neo4j\neo4j-cypher-ir-3.5\3.5.21\neo4j-cypher-ir-3.5-3.5.21.jar
+2021-10-01 13:39:16.873+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\org\neo4j\neo4j-procedure-api\3.5.21\neo4j-procedure-api-3.5.21.jar
+2021-10-01 13:39:16.873+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\org\neo4j\neo4j-common\3.5.21\neo4j-common-3.5.21.jar
+2021-10-01 13:39:16.873+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\org\neo4j\neo4j-kernel-api\3.5.21\neo4j-kernel-api-3.5.21.jar
+2021-10-01 13:39:16.873+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\org\neo4j\neo4j-values\3.5.21\neo4j-values-3.5.21.jar
+2021-10-01 13:39:16.873+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\org\neo4j\neo4j-lucene-index\3.5.21\neo4j-lucene-index-3.5.21.jar
+2021-10-01 13:39:16.873+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\org\neo4j\neo4j-diagnostics\3.5.21\neo4j-diagnostics-3.5.21.jar
+2021-10-01 13:39:16.873+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\org\neo4j\neo4j-udc\3.5.21\neo4j-udc-3.5.21.jar
+2021-10-01 13:39:16.873+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\org\neo4j\neo4j-parser-3.5\3.5.21\neo4j-parser-3.5-3.5.21.jar
+2021-10-01 13:39:16.873+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\org\neo4j\neo4j-cypher\3.5.21\neo4j-cypher-3.5.21.jar
+2021-10-01 13:39:16.873+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\com\github\ben-manes\caffeine\caffeine\2.3.3\caffeine-2.3.3.jar
+2021-10-01 13:39:16.873+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\org\neo4j\neo4j-spatial-index\3.5.21\neo4j-spatial-index-3.5.21.jar
+2021-10-01 13:39:16.873+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\org\neo4j\neo4j-kernel\3.5.21\neo4j-kernel-3.5.21.jar
+2021-10-01 13:39:16.873+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\org\neo4j\neo4j-cypher-logical-plans-3.4\3.4.18\neo4j-cypher-logical-plans-3.4-3.4.18.jar
+2021-10-01 13:39:16.873+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\org\apache\commons\commons-text\1.4\commons-text-1.4.jar
+2021-10-01 13:39:16.873+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\org\neo4j\neo4j-index\3.5.21\neo4j-index-3.5.21.jar
+2021-10-01 13:39:16.873+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\org\apache\lucene\lucene-codecs\5.5.5\lucene-codecs-5.5.5.jar
+2021-10-01 13:39:16.873+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\org\neo4j\neo4j-rewriting-3.5\3.5.21\neo4j-rewriting-3.5-3.5.21.jar
+2021-10-01 13:39:16.873+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\org\neo4j\neo4j-collections\3.5.21\neo4j-collections-3.5.21.jar
+2021-10-01 13:39:16.873+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\org\neo4j\neo4j-graph-matching\3.1.9\neo4j-graph-matching-3.1.9.jar
+2021-10-01 13:39:16.874+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\org\ow2\asm\asm\6.2\asm-6.2.jar
+2021-10-01 13:39:16.874+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\org\scala-lang\scala-library\2.11.12\scala-library-2.11.12.jar
+2021-10-01 13:39:16.874+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\org\jprocesses\jProcesses\1.6.4\jProcesses-1.6.4.jar
+2021-10-01 13:39:16.874+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\org\neo4j\neo4j-cypher-expression-3.4\3.4.18\neo4j-cypher-expression-3.4-3.4.18.jar
+2021-10-01 13:39:16.874+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\org\neo4j\neo4j-import-tool\3.5.21\neo4j-import-tool-3.5.21.jar
+2021-10-01 13:39:16.874+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\org\neo4j\neo4j-resource\3.5.21\neo4j-resource-3.5.21.jar
+2021-10-01 13:39:16.874+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\org\neo4j\neo4j-cypher-util-3.4\3.4.18\neo4j-cypher-util-3.4-3.4.18.jar
+2021-10-01 13:39:16.874+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\org\ow2\asm\asm-tree\6.2\asm-tree-6.2.jar
+2021-10-01 13:39:16.874+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\org\neo4j\neo4j-io\3.5.21\neo4j-io-3.5.21.jar
+2021-10-01 13:39:16.874+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\org\neo4j\neo4j-cypher-planner-3.5\3.5.21\neo4j-cypher-planner-3.5-3.5.21.jar
+2021-10-01 13:39:16.874+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\org\neo4j\neo4j-cypher-interpreted-runtime\3.5.21\neo4j-cypher-interpreted-runtime-3.5.21.jar
+2021-10-01 13:39:16.874+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\org\neo4j\neo4j-jmx\3.5.21\neo4j-jmx-3.5.21.jar
+2021-10-01 13:39:16.874+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\org\eclipse\collections\eclipse-collections-api\9.2.0\eclipse-collections-api-9.2.0.jar
+2021-10-01 13:39:16.874+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\org\ow2\asm\asm-analysis\6.2\asm-analysis-6.2.jar
+2021-10-01 13:39:16.874+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\eclipse-workspace-2021-09\neo4jnosql\target\classes
+2021-10-01 13:39:16.874+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\org\neo4j\neo4j-logging\3.5.21\neo4j-logging-3.5.21.jar
+2021-10-01 13:39:16.874+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\org\neo4j\neo4j-ast-3.5\3.5.21\neo4j-ast-3.5-3.5.21.jar
+2021-10-01 13:39:16.874+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar
+2021-10-01 13:39:16.874+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\org\neo4j\neo4j-annotation-processors\3.5.21\neo4j-annotation-processors-3.5.21.jar
+2021-10-01 13:39:16.874+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\org\neo4j\openCypher-frontend-1\3.4.18\openCypher-frontend-1-3.4.18.jar
+2021-10-01 13:39:16.874+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\org\eclipse\collections\eclipse-collections\9.2.0\eclipse-collections-9.2.0.jar
+2021-10-01 13:39:16.874+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\org\neo4j\neo4j-cypher-compiler-3.1\3.1.9\neo4j-cypher-compiler-3.1-3.1.9.jar
+2021-10-01 13:39:16.875+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\org\neo4j\neo4j-csv\3.5.21\neo4j-csv-3.5.21.jar
+2021-10-01 13:39:16.875+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\com\profesorfalken\jPowerShell\1.9\jPowerShell-1.9.jar
+2021-10-01 13:39:16.875+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\org\neo4j\neo4j-cypher-frontend-3.1\3.1.9\neo4j-cypher-frontend-3.1-3.1.9.jar
+2021-10-01 13:39:16.875+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\org\neo4j\neo4j-cypher-logical-plans-3.5\3.5.21\neo4j-cypher-logical-plans-3.5-3.5.21.jar
+2021-10-01 13:39:16.875+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar
+2021-10-01 13:39:16.875+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\org\neo4j\licensing-proxy\zstd-proxy\3.5.21\zstd-proxy-3.5.21.jar
+2021-10-01 13:39:16.875+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\org\neo4j\neo4j-cypher-frontend-2.3\2.3.12\neo4j-cypher-frontend-2.3-2.3.12.jar
+2021-10-01 13:39:16.875+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\org\parboiled\parboiled-core\1.1.7\parboiled-core-1.1.7.jar
+2021-10-01 13:39:16.875+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\org\scala-lang\scala-reflect\2.11.12\scala-reflect-2.11.12.jar
+2021-10-01 13:39:16.875+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\org\neo4j\neo4j-legacy\3.5.21\neo4j-legacy-3.5.21.jar
+2021-10-01 13:39:16.875+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\org\neo4j\neo4j-codegen\3.5.21\neo4j-codegen-3.5.21.jar
+2021-10-01 13:39:16.875+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\org\neo4j\neo4j-concurrent\3.5.21\neo4j-concurrent-3.5.21.jar
+2021-10-01 13:39:16.875+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\com\profesorfalken\WMI4Java\1.6.1\WMI4Java-1.6.1.jar
+2021-10-01 13:39:16.875+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\org\neo4j\neo4j-consistency-check\3.5.21\neo4j-consistency-check-3.5.21.jar
+2021-10-01 13:39:16.875+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\org\ow2\asm\asm-util\6.2\asm-util-6.2.jar
+2021-10-01 13:39:16.875+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Users\BenjaminLaroche\.m2\repository\org\neo4j\neo4j-data-collector\3.5.21\neo4j-data-collector-3.5.21.jar
+2021-10-01 13:39:16.875+0000 INFO [o.n.i.d.DiagnosticsManager] Library path:
+2021-10-01 13:39:16.876+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Users\BenjaminLaroche\eclipse\java-2021-09\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.2.v20210721-1149\jre\bin
+2021-10-01 13:39:16.876+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Windows\Sun\Java\bin
+2021-10-01 13:39:16.876+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Windows\System32
+2021-10-01 13:39:16.876+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Windows
+2021-10-01 13:39:16.876+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Users\BenjaminLaroche\eclipse\java-2021-09\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.2.v20210721-1149\jre\bin\server
+2021-10-01 13:39:16.877+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Users\BenjaminLaroche\eclipse\java-2021-09\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.2.v20210721-1149\jre\bin
+2021-10-01 13:39:16.877+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Users\BenjaminLaroche\AppData\Local\Android\Sdk\platform-tools
+2021-10-01 13:39:16.877+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Program Files\Java\jdk-11.0.12\bin
+2021-10-01 13:39:16.878+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Users\BenjaminLaroche\flutter_windows_2.5.1-stable\flutter\bin
+2021-10-01 13:39:16.878+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Program Files\Common Files\Oracle\Java\javapath
+2021-10-01 13:39:16.878+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Program Files (x86)\VMware\VMware Workstation\bin
+2021-10-01 13:39:16.878+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Program Files (x86)\Common Files\Oracle\Java\javapath
+2021-10-01 13:39:16.878+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Windows\System32
+2021-10-01 13:39:16.878+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Windows
+2021-10-01 13:39:16.878+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Windows\System32\wbem
+2021-10-01 13:39:16.879+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Windows\System32\WindowsPowerShell\v1.0
+2021-10-01 13:39:16.879+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Windows\System32\OpenSSH
+2021-10-01 13:39:16.879+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Program Files\dotnet
+2021-10-01 13:39:16.879+0000 INFO [o.n.i.d.DiagnosticsManager] C:\ffmpeg-4.4-full_build\bin
+2021-10-01 13:39:16.879+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Program Files\PowerShell\7
+2021-10-01 13:39:16.879+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Program Files\Graphviz\bin
+2021-10-01 13:39:16.879+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Program Files\Git\cmd
+2021-10-01 13:39:16.880+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Users\BenjaminLaroche\AppData\Local\Microsoft\WindowsApps
+2021-10-01 13:39:16.880+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Users\BenjaminLaroche\eclipse-workspace-2021-09\neo4jnosql
+2021-10-01 13:39:16.880+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Windows\System32
+2021-10-01 13:39:16.880+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Users\BenjaminLaroche\eclipse-workspace-2021-09\neo4jnosql
+2021-10-01 13:39:16.880+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Users\BenjaminLaroche\eclipse-workspace-2021-09\neo4jnosql
+2021-10-01 13:39:16.880+0000 INFO [o.n.i.d.DiagnosticsManager] System.properties:
+2021-10-01 13:39:16.881+0000 INFO [o.n.i.d.DiagnosticsManager] sun.cpu.isalist = amd64
+2021-10-01 13:39:16.881+0000 INFO [o.n.i.d.DiagnosticsManager] sun.jnu.encoding = Cp1252
+2021-10-01 13:39:16.881+0000 INFO [o.n.i.d.DiagnosticsManager] sun.arch.data.model = 64
+2021-10-01 13:39:16.881+0000 INFO [o.n.i.d.DiagnosticsManager] user.variant = 
+2021-10-01 13:39:16.881+0000 INFO [o.n.i.d.DiagnosticsManager] user.timezone = Europe/Paris
+2021-10-01 13:39:16.881+0000 INFO [o.n.i.d.DiagnosticsManager] sun.java.launcher = SUN_STANDARD
+2021-10-01 13:39:16.881+0000 INFO [o.n.i.d.DiagnosticsManager] user.country = GB
+2021-10-01 13:39:16.881+0000 INFO [o.n.i.d.DiagnosticsManager] sun.boot.library.path = C:\Users\BenjaminLaroche\eclipse\java-2021-09\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.2.v20210721-1149\jre\bin
+2021-10-01 13:39:16.881+0000 INFO [o.n.i.d.DiagnosticsManager] sun.java.command = com.yanisallouch.neo4jnosql.Ex1
+2021-10-01 13:39:16.881+0000 INFO [o.n.i.d.DiagnosticsManager] jdk.debug = release
+2021-10-01 13:39:16.881+0000 INFO [o.n.i.d.DiagnosticsManager] sun.cpu.endian = little
+2021-10-01 13:39:16.881+0000 INFO [o.n.i.d.DiagnosticsManager] user.home = C:\Users\BenjaminLaroche
+2021-10-01 13:39:16.881+0000 INFO [o.n.i.d.DiagnosticsManager] user.language = en
+2021-10-01 13:39:16.881+0000 INFO [o.n.i.d.DiagnosticsManager] file.separator = \
+2021-10-01 13:39:16.881+0000 INFO [o.n.i.d.DiagnosticsManager] user.script = 
+2021-10-01 13:39:16.881+0000 INFO [o.n.i.d.DiagnosticsManager] sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+2021-10-01 13:39:16.881+0000 INFO [o.n.i.d.DiagnosticsManager] user.name = BenjaminLaroche
+2021-10-01 13:39:16.881+0000 INFO [o.n.i.d.DiagnosticsManager] path.separator = ;
+2021-10-01 13:39:16.881+0000 INFO [o.n.i.d.DiagnosticsManager] file.encoding = UTF-8
+2021-10-01 13:39:16.881+0000 INFO [o.n.i.d.DiagnosticsManager] user.dir = C:\Users\BenjaminLaroche\eclipse-workspace-2021-09\neo4jnosql
+2021-10-01 13:39:16.881+0000 INFO [o.n.i.d.DiagnosticsManager] sun.os.patch.level = 
+2021-10-01 13:39:16.881+0000 INFO [o.n.i.d.DiagnosticsManager] sun.io.unicode.encoding = UnicodeLittle
+2021-10-01 13:39:16.881+0000 INFO [o.n.i.d.DiagnosticsManager] (IANA) TimeZone Database Version:
+2021-10-01 13:39:16.900+0000 INFO [o.n.i.d.DiagnosticsManager]   TimeZone version: 2021a (available for 600 zone identifiers)
+2021-10-01 13:39:16.900+0000 INFO [o.n.i.d.DiagnosticsManager] Network information:
+2021-10-01 13:39:16.918+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Software Loopback Interface 1:
+2021-10-01 13:39:16.919+0000 INFO [o.n.i.d.DiagnosticsManager]     address: 127.0.0.1
+2021-10-01 13:39:16.919+0000 INFO [o.n.i.d.DiagnosticsManager]     address: 0:0:0:0:0:0:0:1
+2021-10-01 13:39:16.919+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Microsoft 6to4 Adapter:
+2021-10-01 13:39:16.919+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Hyper-V Virtual Switch Extension Adapter:
+2021-10-01 13:39:16.919+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Realtek RTL8822CE 802.11ac PCIe Adapter-WFP Native MAC Layer LightWeight Filter-0000:
+2021-10-01 13:39:16.919+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Realtek PCIe GbE Family Controller:
+2021-10-01 13:39:16.919+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter:
+2021-10-01 13:39:16.919+0000 INFO [o.n.i.d.DiagnosticsManager] Interface VMware Virtual Ethernet Adapter for VMnet1:
+2021-10-01 13:39:16.919+0000 INFO [o.n.i.d.DiagnosticsManager]     address: 192.168.161.1
+2021-10-01 13:39:16.919+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Microsoft IP-HTTPS Platform Adapter:
+2021-10-01 13:39:16.919+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter #2:
+2021-10-01 13:39:16.919+0000 INFO [o.n.i.d.DiagnosticsManager] Interface WAN Miniport (PPTP):
+2021-10-01 13:39:16.919+0000 INFO [o.n.i.d.DiagnosticsManager] Interface WAN Miniport (Network Monitor):
+2021-10-01 13:39:16.919+0000 INFO [o.n.i.d.DiagnosticsManager] Interface WAN Miniport (SSTP):
+2021-10-01 13:39:16.919+0000 INFO [o.n.i.d.DiagnosticsManager] Interface VMware Virtual Ethernet Adapter for VMnet8:
+2021-10-01 13:39:16.919+0000 INFO [o.n.i.d.DiagnosticsManager]     address: 192.168.137.1
+2021-10-01 13:39:16.919+0000 INFO [o.n.i.d.DiagnosticsManager] Interface WAN Miniport (IPv6):
+2021-10-01 13:39:16.919+0000 INFO [o.n.i.d.DiagnosticsManager] Interface WAN Miniport (L2TP):
+2021-10-01 13:39:16.919+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Hyper-V Virtual Switch Extension Adapter-Hyper-V Virtual Switch Extension Filter-0000:
+2021-10-01 13:39:16.919+0000 INFO [o.n.i.d.DiagnosticsManager] Interface WAN Miniport (IP):
+2021-10-01 13:39:16.919+0000 INFO [o.n.i.d.DiagnosticsManager] Interface TAP-ProtonVPN Windows Adapter V9:
+2021-10-01 13:39:16.920+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Microsoft Teredo Tunneling Adapter:
+2021-10-01 13:39:16.920+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Hyper-V Virtual Ethernet Adapter:
+2021-10-01 13:39:16.920+0000 INFO [o.n.i.d.DiagnosticsManager]     address: 172.22.64.1
+2021-10-01 13:39:16.920+0000 INFO [o.n.i.d.DiagnosticsManager]     address: fe80:0:0:0:6d22:ee64:1836:a5b9%eth8
+2021-10-01 13:39:16.920+0000 INFO [o.n.i.d.DiagnosticsManager] Interface ProtonVPN Tunnel:
+2021-10-01 13:39:16.920+0000 INFO [o.n.i.d.DiagnosticsManager]     address: fe80:0:0:0:1123:c782:75a8:a017%net7
+2021-10-01 13:39:16.920+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Hyper-V Virtual Ethernet Adapter-WFP Native MAC Layer LightWeight Filter-0000:
+2021-10-01 13:39:16.920+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Microsoft Kernel Debug Network Adapter:
+2021-10-01 13:39:16.920+0000 INFO [o.n.i.d.DiagnosticsManager] Interface WAN Miniport (IKEv2):
+2021-10-01 13:39:16.920+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Realtek RTL8822CE 802.11ac PCIe Adapter:
+2021-10-01 13:39:16.920+0000 INFO [o.n.i.d.DiagnosticsManager]     address: 172.24.49.178
+2021-10-01 13:39:16.920+0000 INFO [o.n.i.d.DiagnosticsManager] Interface WAN Miniport (PPPOE):
+2021-10-01 13:39:16.920+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter-WFP Native MAC Layer LightWeight Filter-0000:
+2021-10-01 13:39:16.920+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Realtek RTL8822CE 802.11ac PCIe Adapter-Virtual WiFi Filter Driver-0000:
+2021-10-01 13:39:16.920+0000 INFO [o.n.i.d.DiagnosticsManager] Interface TAP-ProtonVPN Windows Adapter V9-WFP Native MAC Layer LightWeight Filter-0000:
+2021-10-01 13:39:16.920+0000 INFO [o.n.i.d.DiagnosticsManager] Interface TAP-ProtonVPN Windows Adapter V9-QoS Packet Scheduler-0000:
+2021-10-01 13:39:16.920+0000 INFO [o.n.i.d.DiagnosticsManager] Interface TAP-ProtonVPN Windows Adapter V9-WFP 802.3 MAC Layer LightWeight Filter-0000:
+2021-10-01 13:39:16.920+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Hyper-V Virtual Ethernet Adapter-QoS Packet Scheduler-0000:
+2021-10-01 13:39:16.920+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Hyper-V Virtual Ethernet Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000:
+2021-10-01 13:39:16.920+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Hyper-V Virtual Ethernet Adapter #2:
+2021-10-01 13:39:16.920+0000 INFO [o.n.i.d.DiagnosticsManager]     address: 172.20.128.1
+2021-10-01 13:39:16.920+0000 INFO [o.n.i.d.DiagnosticsManager]     address: fe80:0:0:0:f1ca:542b:9a73:580d%eth13
+2021-10-01 13:39:16.921+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Realtek RTL8822CE 802.11ac PCIe Adapter-Native WiFi Filter Driver-0000:
+2021-10-01 13:39:16.921+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Hyper-V Virtual Ethernet Adapter #3:
+2021-10-01 13:39:16.921+0000 INFO [o.n.i.d.DiagnosticsManager]     address: 172.20.32.1
+2021-10-01 13:39:16.921+0000 INFO [o.n.i.d.DiagnosticsManager]     address: fe80:0:0:0:59d7:190c:4ec:858e%eth14
+2021-10-01 13:39:16.921+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Hyper-V Virtual Ethernet Adapter #3-WFP Native MAC Layer LightWeight Filter-0000:
+2021-10-01 13:39:16.921+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Hyper-V Virtual Ethernet Adapter #3-QoS Packet Scheduler-0000:
+2021-10-01 13:39:16.921+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Realtek RTL8822CE 802.11ac PCIe Adapter-QoS Packet Scheduler-0000:
+2021-10-01 13:39:16.921+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Hyper-V Virtual Ethernet Adapter #3-WFP 802.3 MAC Layer LightWeight Filter-0000:
+2021-10-01 13:39:16.921+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Hyper-V Virtual Ethernet Adapter #2-WFP Native MAC Layer LightWeight Filter-0000:
+2021-10-01 13:39:16.921+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Hyper-V Virtual Ethernet Adapter #2-QoS Packet Scheduler-0000:
+2021-10-01 13:39:16.921+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Hyper-V Virtual Ethernet Adapter #2-WFP 802.3 MAC Layer LightWeight Filter-0000:
+2021-10-01 13:39:16.921+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Hyper-V Virtual Ethernet Adapter #4:
+2021-10-01 13:39:16.921+0000 INFO [o.n.i.d.DiagnosticsManager]     address: 172.20.16.1
+2021-10-01 13:39:16.921+0000 INFO [o.n.i.d.DiagnosticsManager]     address: fe80:0:0:0:d0e:e985:e859:5024%eth21
+2021-10-01 13:39:16.921+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Realtek RTL8822CE 802.11ac PCIe Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000:
+2021-10-01 13:39:16.921+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Hyper-V Virtual Ethernet Adapter #4-WFP Native MAC Layer LightWeight Filter-0000:
+2021-10-01 13:39:16.921+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Realtek PCIe GbE Family Controller-WFP Native MAC Layer LightWeight Filter-0000:
+2021-10-01 13:39:16.921+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Realtek PCIe GbE Family Controller-QoS Packet Scheduler-0000:
+2021-10-01 13:39:16.921+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Realtek PCIe GbE Family Controller-WFP 802.3 MAC Layer LightWeight Filter-0000:
+2021-10-01 13:39:16.921+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter-Native WiFi Filter Driver-0000:
+2021-10-01 13:39:16.921+0000 INFO [o.n.i.d.DiagnosticsManager] Interface WAN Miniport (IP)-WFP Native MAC Layer LightWeight Filter-0000:
+2021-10-01 13:39:16.921+0000 INFO [o.n.i.d.DiagnosticsManager] Interface WAN Miniport (IP)-QoS Packet Scheduler-0000:
+2021-10-01 13:39:16.921+0000 INFO [o.n.i.d.DiagnosticsManager] Interface WAN Miniport (IPv6)-WFP Native MAC Layer LightWeight Filter-0000:
+2021-10-01 13:39:16.922+0000 INFO [o.n.i.d.DiagnosticsManager] Interface WAN Miniport (IPv6)-QoS Packet Scheduler-0000:
+2021-10-01 13:39:16.922+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter-QoS Packet Scheduler-0000:
+2021-10-01 13:39:16.922+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000:
+2021-10-01 13:39:16.922+0000 INFO [o.n.i.d.DiagnosticsManager] Interface WAN Miniport (Network Monitor)-WFP Native MAC Layer LightWeight Filter-0000:
+2021-10-01 13:39:16.922+0000 INFO [o.n.i.d.DiagnosticsManager] Interface WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000:
+2021-10-01 13:39:16.922+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Hyper-V Virtual Ethernet Adapter #4-QoS Packet Scheduler-0000:
+2021-10-01 13:39:16.922+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Hyper-V Virtual Ethernet Adapter #4-WFP 802.3 MAC Layer LightWeight Filter-0000:
+2021-10-01 13:39:16.922+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Hyper-V Virtual Ethernet Adapter #5:
+2021-10-01 13:39:16.922+0000 INFO [o.n.i.d.DiagnosticsManager]     address: 172.20.192.1
+2021-10-01 13:39:16.922+0000 INFO [o.n.i.d.DiagnosticsManager]     address: fe80:0:0:0:ecb8:8328:10c0:85c5%eth34
+2021-10-01 13:39:16.922+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Hyper-V Virtual Ethernet Adapter #5-WFP Native MAC Layer LightWeight Filter-0000:
+2021-10-01 13:39:16.922+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Hyper-V Virtual Ethernet Adapter #5-QoS Packet Scheduler-0000:
+2021-10-01 13:39:16.922+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Hyper-V Virtual Ethernet Adapter #5-WFP 802.3 MAC Layer LightWeight Filter-0000:
+2021-10-01 13:39:16.922+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter #2-WFP Native MAC Layer LightWeight Filter-0000:
+2021-10-01 13:39:16.922+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter #2-Native WiFi Filter Driver-0000:
+2021-10-01 13:39:16.922+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter #2-QoS Packet Scheduler-0000:
+2021-10-01 13:39:16.922+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter #2-WFP 802.3 MAC Layer LightWeight Filter-0000:
+2021-10-01 13:39:16.922+0000 INFO [o.n.i.d.DiagnosticsManager] --- INITIALIZED diagnostics END ---
+2021-10-01 13:39:17.143+0000 INFO [o.n.i.d.DiagnosticsManager] --- STOPPING diagnostics START ---
+2021-10-01 13:39:17.143+0000 INFO [o.n.i.d.DiagnosticsManager] --- STOPPING diagnostics END ---
+2021-10-01 13:39:17.144+0000 INFO [o.n.g.f.GraphDatabaseFacadeFactory] Shutdown started

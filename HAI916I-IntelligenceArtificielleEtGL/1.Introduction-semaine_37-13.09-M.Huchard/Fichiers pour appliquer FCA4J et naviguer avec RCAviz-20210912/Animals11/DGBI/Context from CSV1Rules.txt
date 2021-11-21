@@ -1,0 +1,4 @@
+<1> six-legged => flies,elytra
+<1> wood-habitat => flies,feathered
+<1> elytra => flies,six-legged
+<1> nocturnal => flies

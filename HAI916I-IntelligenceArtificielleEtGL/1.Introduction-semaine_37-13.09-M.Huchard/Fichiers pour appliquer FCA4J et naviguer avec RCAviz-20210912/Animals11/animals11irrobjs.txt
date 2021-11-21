@@ -1,0 +1,8 @@
+arctic-tern
+greater-flamingo, little-tern
+silver-gull
+ladybird
+wood-pecker
+bat
+giant-otter
+ostrich

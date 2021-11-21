@@ -1,0 +1,1 @@
+bin/Release/watdiv -q model/wsdbm-data-model.txt testsuite/templates/Q_4_location_nationality_gender_type.sparql-template 100 1 query testsuite/queries/Q_4_location_nationality_gender_type.queryset

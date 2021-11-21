@@ -1,0 +1,20 @@
+{
+   "_id":"12_27-DEC-20_AstraZeneka",
+   "dep":"12",
+   "jour":"27-DEC-20",
+   "type":"couverture_vaccinale",
+   "doses":[
+      {
+         "vaccin":"AstraZeneka"
+      },
+      {
+         "dose1":0
+      },
+      {
+         "dose2":0
+      },
+      {
+         "dose3":0
+      }
+   ]
+}

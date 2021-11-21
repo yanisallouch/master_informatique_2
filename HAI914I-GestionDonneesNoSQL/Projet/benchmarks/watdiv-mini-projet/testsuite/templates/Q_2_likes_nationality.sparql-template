@@ -1,0 +1,5 @@
+#mapping v1 wsdbm:Country uniform
+SELECT ?v0 WHERE {
+	?v0	wsdbm:likes	wsdbm:Product0 .
+	?v0	sorg:nationality	%v1% .
+}

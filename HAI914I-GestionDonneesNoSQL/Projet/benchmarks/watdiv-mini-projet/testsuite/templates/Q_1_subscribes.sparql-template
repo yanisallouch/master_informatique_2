@@ -1,0 +1,5 @@
+#mapping v1 wsdbm:Website uniform
+SELECT ?v0  WHERE {
+	?v0	wsdbm:subscribes	%v1% .
+}
+
