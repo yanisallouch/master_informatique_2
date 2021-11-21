@@ -1,0 +1,476 @@
+> LOC: 6771.
+> Number of packages: 23.
+> Number of classes: 131.
+> Number of fields: 117.
+> Number of methods: 435.
+> public static void behavioral.strategy.Test::computeAndDisplay(ArithmeticOperation anOperation, String operationSymbol, int x, int y)
+> has the maximum number of paramters among all methods: 4.
+> Number of fields: 117.
+> Number of classes: 131.
+> Average field(s) per class: 0.8931297709923665.
+> Number of methods: 435.
+> Number of classes: 131.
+> Average method(s) per class: 3.3206106870229006.
+> Number of methods: 435.
+> LOC for all methods: 3078.
+> Average LOC per method: 7.075862068965518.
+> 13 class(es) (10.0%) having the highest number of fields:
+	structural.facade.BankAccountFacade (7 field(s))
+	behavioral.observer.StockObserver (6 field(s))
+	behavioral.state.ATMMachine (6 field(s))
+	creational.builder.Robot (4 field(s))
+	structural.bridge.Device (4 field(s))
+	behavioral.observer.StockGrabber (4 field(s))
+	behavioral.mediator.User (4 field(s))
+	creational.prototype.Shape (3 field(s))
+	structural.composite.SongGroup (3 field(s))
+	structural.composite.Song (3 field(s))
+	structural.facade.BankAccount (3 field(s))
+	behavioral.command.SwitchChannelCommand (3 field(s))
+	behavioral.command.CommandManager (3 field(s))
+> 13 class(es) (10.0%) having the highest number of methods:
+	behavioral.state.ATMMachine (13 method(s))
+	behavioral.observer.StockGrabber (10 method(s))
+	creational.builder.Robot (9 method(s))
+	creational.factory.EnemyShip (8 method(s))
+	creational.prototype.Shape (8 method(s))
+	structural.bridge.Device (8 method(s))
+	structural.composite.SongComponent (8 method(s))
+	structural.facade.BankAccount (8 method(s))
+	creational.prototype.Position (7 method(s))
+	structural.decorator.Test (7 method(s))
+	structural.composite.SongGroup (7 method(s))
+	structural.bridge.Remote (6 method(s))
+	structural.flyweight.Position (6 method(s))
+> 7 class(es) (10.0%) having the highest number of fields and methods:
+	behavioral.state.ATMMachine (6 fields(s), 13 method(s))
+	behavioral.observer.StockGrabber (4 fields(s), 10 method(s))
+	creational.builder.Robot (4 fields(s), 9 method(s))
+	creational.prototype.Shape (3 fields(s), 8 method(s))
+	structural.bridge.Device (4 fields(s), 8 method(s))
+	structural.facade.BankAccount (3 fields(s), 8 method(s))
+	structural.composite.SongGroup (3 fields(s), 7 method(s))
+> 18 class(es) that have more than 5 methods:
+	creational.builder.Robot (9 method(s))
+	creational.factory.EnemyShip (8 method(s))
+	creational.prototype.Position (7 method(s))
+	creational.prototype.Shape (8 method(s))
+	structural.decorator.Test (7 method(s))
+	structural.bridge.Device (8 method(s))
+	structural.bridge.Remote (6 method(s))
+	structural.flyweight.Position (6 method(s))
+	structural.composite.SongGroup (7 method(s))
+	structural.composite.SongComponent (8 method(s))
+	structural.facade.BankAccount (8 method(s))
+	structural.facade.BankAccountFacade (6 method(s))
+	behavioral.observer.StockGrabber (10 method(s))
+	behavioral.mediator.User (6 method(s))
+	behavioral.state.ATMMachine (13 method(s))
+	behavioral.state.NoCard (6 method(s))
+	behavioral.state.NoCash (6 method(s))
+	behavioral.visitor.TaxVisitor (6 method(s))
+> 131 method(s) (20.0%) having the highest number of statements per class:
+	creational.abstract_factory.Triangle: 
+	@Override public void draw() (1 statement(s))
+
+	behavioral.strategy.Test: 
+	public static void main(String[] args) (6 statement(s))
+
+	creational.builder.OldRobotBuilder: 
+	@Override public void buildHead() (1 statement(s))
+
+	behavioral.strategy.Calculator: 
+	public static void computeOperation(int x, int y) (1 statement(s))
+
+	creational.factory.EnemyShipTesting: 
+	public static void main(String[] args) (7 statement(s))
+
+	behavioral.state.Test: 
+	public static void main(String[] args) (12 statement(s))
+
+	behavioral.command.SwitchChannelCommand: 
+	public SwitchChannelCommand(TV tv, int newChannel) (2 statement(s))
+
+	creational.abstract_factory.StandardShapeFactory: 
+	@Override public Shape createShape(ShapeType shapeType) (2 statement(s))
+
+	creational.abstract_factory.Rectangle: 
+	@Override public void draw() (1 statement(s))
+
+	behavioral.state.NoCash: 
+	public NoCash(ATMMachine context) (1 statement(s))
+	@Override public void insertCard() (1 statement(s))
+
+	structural.bridge.AdvancedRemote: 
+	public void mute() (2 statement(s))
+
+	behavioral.mediator.ChatUser: 
+	@Override public void send(String message, String userId) (2 statement(s))
+
+	structural.adapter.EnemyRobotAdapter: 
+	public EnemyRobotAdapter(EnemyRobot robot) (1 statement(s))
+
+	behavioral.strategy.Divide: 
+	@Override public int execute(int x, int y) (1 statement(s))
+
+	behavioral.mediator.Test: 
+	public static void main(String[] args) (11 statement(s))
+
+	behavioral.memento.Memento: 
+	public Memento(String state) (1 statement(s))
+
+	behavioral.command.TV: 
+	public boolean isOn() (1 statement(s))
+
+	structural.decorator.Beverage: 
+	public Beverage(String description, double price) (2 statement(s))
+
+	behavioral.command.CommandManager: 
+	public void execute(Command command) (3 statement(s))
+
+	creational.prototype.Position: 
+	public Position(double x, double y) (2 statement(s))
+	public double getX() (1 statement(s))
+
+	behavioral.iterator.Test: 
+	public static void main(String[] args) (24 statement(s))
+
+	creational.abstract_factory.RoundedTriangle: 
+	@Override public void draw() (1 statement(s))
+
+	structural.bridge.Radio: 
+	public Radio() (1 statement(s))
+
+	creational.prototype.Circle: 
+	public Circle() (1 statement(s))
+
+	structural.bridge.Device: 
+	public boolean isEnabled() (1 statement(s))
+	public void enable() (1 statement(s))
+
+	structural.facade.BankAccount: 
+	public BankAccount(int number, int securityCode, double balance) (3 statement(s))
+	public int getNumber() (1 statement(s))
+
+	behavioral.state.CorrectPin: 
+	@Override public void requestCash(int cash) (3 statement(s))
+
+	structural.flyweight.Test: 
+	public static void main(String[] args) (1 statement(s))
+
+	behavioral.interpreter.Test: 
+	public static void main(String[] args) (6 statement(s))
+
+	behavioral.template_method.Test: 
+	public static void main(String[] args) (5 statement(s))
+
+	behavioral.command.Test: 
+	public static void main(String[] args) (16 statement(s))
+
+	behavioral.strategy.Subtract: 
+	@Override public int execute(int x, int y) (1 statement(s))
+
+	creational.singleton.SingletonRegistry: 
+	public void register(String key, Singleton singleton) (1 statement(s))
+
+	behavioral.interpreter.TerminalExpression: 
+	public TerminalExpression(String data) (1 statement(s))
+
+	behavioral.visitor.Test: 
+	public static void main(String[] args) (5 statement(s))
+
+	behavioral.iterator.SongArray: 
+	private Song[] getFilledArray() (3 statement(s))
+
+	structural.decorator.Espresso: 
+	public Espresso() (2 statement(s))
+
+	behavioral.visitor.Necessity: 
+	public Necessity(String name, double price) (1 statement(s))
+
+	creational.prototype.ShapeCache: 
+	public static void loadCache() (12 statement(s))
+
+	structural.facade.BankAccountNumberChecker: 
+	public BankAccountNumberChecker(BankAccount bankAccount) (1 statement(s))
+
+	structural.composite.SongComponent: 
+	public void add(SongComponent component) (1 statement(s))
+	public void remove(SongComponent component) (1 statement(s))
+
+	structural.flyweight.ShapeFactory: 
+	public static Shape getCircle(String color) (3 statement(s))
+
+	structural.decorator.BeverageDecorator: 
+	public BeverageDecorator(Beverage beverage) (1 statement(s))
+
+	structural.adapter.TestEnemyAttackers: 
+	public static void main(String[] args) (17 statement(s))
+
+	creational.factory.Test: 
+	public static void main(String[] args) (7 statement(s))
+
+	creational.abstract_factory.ShapeProducer: 
+	public static AbstractShapeFactory createFactory(ShapeFactoryType type) (2 statement(s))
+
+	behavioral.chain_of_responsibility.FileLogger: 
+	public FileLogger(String filePath, LogRequestLevel level) (2 statement(s))
+
+	behavioral.command.SwitchOffCommand: 
+	public SwitchOffCommand(TV tv) (1 statement(s))
+
+	behavioral.observer.StockGrabber: 
+	@Override public void unregister(Observer o) (3 statement(s))
+	public void setIBMStock(double ibmStock) (2 statement(s))
+
+	structural.adapter.EnemyTank: 
+	@Override public void fireWeapon() (2 statement(s))
+
+	behavioral.observer.Test: 
+	public static void main(String[] args) (13 statement(s))
+
+	creational.builder.RobotBuilder: 
+	public RobotBuilder() (1 statement(s))
+
+	behavioral.chain_of_responsibility.LogRequest: 
+	public LogRequest(String message, LogRequestLevel level) (2 statement(s))
+
+	behavioral.strategy.Modulo: 
+	@Override public int execute(int x, int y) (1 statement(s))
+
+	behavioral.visitor.TaxVisitor: 
+	protected void computeTax(Product product) (2 statement(s))
+	@Override public void visit(Liquor liquor) (2 statement(s))
+
+	structural.composite.DiscJockey: 
+	public DiscJockey(SongComponent songList) (1 statement(s))
+
+	structural.facade.BankAccountWelcomeWindow: 
+	public String setWelcomeMessage() (6 statement(s))
+
+	structural.adapter.EnemyRobot: 
+	public void smashwithHands() (2 statement(s))
+
+	creational.abstract_factory.RoundedRectangle: 
+	@Override public void draw() (1 statement(s))
+
+	structural.composite.SongListGenerator: 
+	public static void main(String[] args) (15 statement(s))
+
+	behavioral.template_method.Basketball: 
+	@Override protected void initialize() (1 statement(s))
+
+	behavioral.strategy.Multiply: 
+	@Override public int execute(int x, int y) (1 statement(s))
+
+	behavioral.state.ATMState: 
+	public ATMState(ATMMachine context) (1 statement(s))
+
+	behavioral.iterator.SongList: 
+	@Override public void addSong(String songName, String bandName, int releaseYear) (1 statement(s))
+
+	structural.bridge.Remote: 
+	public void togglePower() (2 statement(s))
+	public void volumeDown() (2 statement(s))
+
+	structural.facade.BankAccountBalanceSystem: 
+	public void deposit(double cash) (2 statement(s))
+
+	creational.prototype.Test: 
+	public static void main(String[] args) (14 statement(s))
+
+	behavioral.chain_of_responsibility.ConsoleLogger: 
+	public ConsoleLogger(LogRequestLevel level) (1 statement(s))
+
+	behavioral.visitor.TaxHolidayVisitor: 
+	@Override public void visit(Liquor liquor) (2 statement(s))
+
+	structural.decorator.Tea: 
+	public Tea() (2 statement(s))
+
+	creational.factory.EnemyShipFactory: 
+	public EnemyShip createEnemyShip(String type) (1 statement(s))
+
+	creational.factory.BigUFOEnemyShip: 
+	public BigUFOEnemyShip() (1 statement(s))
+
+	behavioral.template_method.Football: 
+	@Override protected void initialize() (1 statement(s))
+
+	behavioral.memento.Originator: 
+	public String getState() (1 statement(s))
+
+	behavioral.chain_of_responsibility.ErrorLogger: 
+	public ErrorLogger(LogRequestLevel level) (1 statement(s))
+
+	structural.facade.BankAccountSecurityCodeChecker: 
+	public BankAccountSecurityCodeChecker(BankAccount bankAccount) (1 statement(s))
+
+	creational.singleton.Test: 
+	public static void main(String[] args) (7 statement(s))
+
+	structural.facade.BankAccountFacade: 
+	public BankAccountFacade(int accountNumber, int securityCode) (7 statement(s))
+	public int getAccountNumber() (1 statement(s))
+
+	structural.decorator.SugarDecorator: 
+	public SugarDecorator(Beverage beverage) (3 statement(s))
+
+	creational.prototype.Shape: 
+	@Override public Shape clone() (3 statement(s))
+	public String getId() (1 statement(s))
+
+	structural.proxy.ProxyInternet: 
+	@Override public void connectTo(String serverHost) (1 statement(s))
+
+	behavioral.iterator.SongHashtable: 
+	@Override public void addSong(String songName, String bandName, int releaseYear) (1 statement(s))
+
+	structural.adapter.Test: 
+	public static void main(String[] args) (17 statement(s))
+
+	creational.abstract_factory.RoundedShapeFactory: 
+	@Override public Shape createShape(ShapeType shapeType) (2 statement(s))
+
+	behavioral.state.HasCard: 
+	@Override public void ejectCard() (2 statement(s))
+
+	behavioral.state.ATMMachine: 
+	public ATMMachine() (5 statement(s))
+	public ATMState getATMState() (1 statement(s))
+	public void setATMState(ATMState atmState) (1 statement(s))
+
+	behavioral.template_method.Game: 
+	public final void play() (3 statement(s))
+
+	behavioral.chain_of_responsibility.Test: 
+	private static ILogger getChainOfLoggers() (6 statement(s))
+
+	creational.prototype.Triangle: 
+	public Triangle() (1 statement(s))
+
+	structural.proxy.RealInternet: 
+	@Override public void connectTo(String serverHost) (1 statement(s))
+
+	behavioral.visitor.Liquor: 
+	public Liquor(String name, double price) (1 statement(s))
+
+	behavioral.iterator.Song: 
+	@Override public String toString() (5 statement(s))
+
+	structural.decorator.CaramelDecorator: 
+	public CaramelDecorator(Beverage beverage) (3 statement(s))
+
+	structural.flyweight.Position: 
+	public Position(double x, double y) (2 statement(s))
+	public double getX() (1 statement(s))
+
+	creational.builder.Robot: 
+	@Override public String toString() (6 statement(s))
+	public String getHead() (1 statement(s))
+
+	structural.proxy.Test: 
+	public static void main(String[] args) (3 statement(s))
+
+	behavioral.interpreter.AndExpression: 
+	public AndExpression(Expression leftExpression, Expression rightExpression) (1 statement(s))
+
+	structural.composite.SongGroup: 
+	@Override public String getInfo() (10 statement(s))
+	public SongGroup(String groupName, String groupDescription) (2 statement(s))
+
+	creational.factory.UFOEnemyShip: 
+	public UFOEnemyShip() (1 statement(s))
+
+	creational.prototype.Rectangle: 
+	public Rectangle() (1 statement(s))
+
+	behavioral.state.NoCard: 
+	@Override public void insertCard() (2 statement(s))
+	public NoCard(ATMMachine context) (1 statement(s))
+
+	creational.factory.RocketEnemyShip: 
+	public RocketEnemyShip() (1 statement(s))
+
+	structural.flyweight.Circle: 
+	@Override public void draw(Position position) (6 statement(s))
+
+	behavioral.visitor.Product: 
+	public Product(String name, double price) (2 statement(s))
+
+	behavioral.interpreter.BinaryExpression: 
+	public BinaryExpression(Expression leftExpression, Expression rightExpression) (2 statement(s))
+
+	behavioral.mediator.User: 
+	public User(String name, IChatRoom room) (3 statement(s))
+	public String getId() (1 statement(s))
+
+	structural.bridge.TV: 
+	public TV() (1 statement(s))
+
+	structural.decorator.Test: 
+	public static Beverage selectBeverage(Scanner scanner) (5 statement(s))
+	public static void orderBeverage() (4 statement(s))
+
+	creational.singleton.Singleton: 
+	public static Singleton getInstance(Class<? extends Singleton> cls) (3 statement(s))
+
+	behavioral.strategy.Add: 
+	@Override public int execute(int x, int y) (1 statement(s))
+
+	creational.builder.RobotEngineer: 
+	public void constructRobot() (4 statement(s))
+
+	behavioral.observer.StockObserver: 
+	public void displayPrices() (6 statement(s))
+
+	structural.composite.Song: 
+	@Override public String getInfo() (5 statement(s))
+
+	behavioral.visitor.Tobacco: 
+	public Tobacco(String name, double price) (1 statement(s))
+
+	behavioral.memento.CareTaker: 
+	public void addMemento(Memento memento) (1 statement(s))
+
+	behavioral.interpreter.OrExpression: 
+	public OrExpression(Expression leftExpression, Expression rightExpression) (1 statement(s))
+
+	structural.facade.Test: 
+	public static void main(String[] args) (5 statement(s))
+
+	creational.abstract_factory.Test: 
+	public static void main(String[] args) (10 statement(s))
+
+	behavioral.memento.Test: 
+	public static void main(String[] args) (13 statement(s))
+
+	structural.bridge.Test: 
+	public static void ordinaryRemoteTest(Remote remote) (13 statement(s))
+
+	behavioral.mediator.ChatRoom: 
+	@Override public void sendMessage(String message, String userId) (2 statement(s))
+
+	behavioral.command.SwitchOnCommand: 
+	public SwitchOnCommand(TV tv) (1 statement(s))
+
+	behavioral.iterator.DiscJockey: 
+	public DiscJockey(SongAggregate songs) (1 statement(s))
+
+	creational.factory.EnemyShip: 
+	public EnemyShip(String name, double amtDamage) (2 statement(s))
+	public String getName() (1 statement(s))
+
+	creational.builder.SophisticatedRobotBuilder: 
+	@Override public void buildHead() (1 statement(s))
+
+	structural.composite.Test: 
+	public static void main(String[] args) (15 statement(s))
+
+	behavioral.chain_of_responsibility.Logger: 
+	@Override public void log(LogRequest request) (2 statement(s))
+
+	creational.builder.Test: 
+	public static void main(String[] args) (9 statement(s))
+
+

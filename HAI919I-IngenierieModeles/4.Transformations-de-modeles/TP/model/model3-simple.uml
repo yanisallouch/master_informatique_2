@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_2bTeMCw5Eey0WPWjAULyow" name="model3">
+  <ownedComment xmi:type="uml:Comment" xmi:id="_4G8goCw5Eey0WPWjAULyow">
+    <body>un commentaire</body>
+  </ownedComment>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_2fFyACw5Eey0WPWjAULyow">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_AVczICw6Eey0WPWjAULyow" name="FirstPackage">
+    <packagedElement xmi:type="uml:Package" xmi:id="_Dh3VcCziEeyaeunzhHe5aw" name="FirstFirstPackage">
+      <packagedElement xmi:type="uml:Class" xmi:id="_32dNkCw5Eey0WPWjAULyow" name="FirstClass">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_i-tB8CxBEey0WPWjAULyow" name="name" isStatic="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+      </packagedElement>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_DwA1gCw6Eey0WPWjAULyow" name="SecondPackage">
+    <packagedElement xmi:type="uml:Class" xmi:id="_NuX8ECw6Eey0WPWjAULyow" name="SecondClass"/>
+  </packagedElement>
+</uml:Model>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ASCII"?>
+<uml:Model xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" name="My model">
+  <packageImport>
+    <importedPackage href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xsi:type="uml:Package" name="FirstPackage">
+    <packagedElement xsi:type="uml:Package" name="FirstFirstPackage"/>
+    <packagedElement xsi:type="uml:Class" name="FirstSuperClass">
+      <ownedOperation name="firstSuperMethod"/>
+      <ownedOperation name="firstSubMethod">
+        <ownedParameter name="firstNumber">
+          <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xsi:type="uml:Class" name="FirstSubClass">
+      <generalization general="//FirstPackage/FirstSuperClass"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Package" name="SecondPackage">
+    <packagedElement xsi:type="uml:Class" name="SecondClass"/>
+    <packagedElement xsi:type="uml:Class" name="FirstClass"/>
+  </packagedElement>
+</uml:Model>
