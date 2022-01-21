@@ -1,0 +1,29 @@
+Current methods in software engineering present 'defect prevention' strategies rather than 'defect detection' strategies.
+
+Metric analysis allows software engineers to assess software risks; and these metric data also provide information for defect prediction.
+
+Most of the defect models use the previously mentioned metrics by McCabe and Halstead such as cyclomatic complexity and size of the software.
+
+Apart from the researches on software metrics, many studies are also carried out on machine learning algorithms for the purpose of defect prediction using the related software metrics.
+
+Since software problems can be formulated as learning processes and they are classified according to defect characteristics, regular machine learning algorithms are applicable to prepare a probability distribution and to estimate errors [15, 17]. According to a research , an enhanced technique for risk categorization is presented.
+
+Since these minor-priority defects slow down the learning performance, there happens to be a bias towards underestimating the defect values.
+
+Designing a learning system for defect prediction requires experimentation of these techniques with the datasets collected from three companies.
+
+Initial Learning System The initial learning system architecture predicts the defect values of each module using the entire dataset.
+
+6.1.Experimental Results Using the Entire Datasets The first type of experiments is done with entire datasets including all the defect values, having minorpriority, normal-priority and major-priority levels.
+
+The system is likely to have a bias towards underestimating the defect values because of these minor-priority defects.
+
+6.2.Experimental Results Using Datasets that do not Contain Minor-Priority Defects The implementations in this type of experiments are done with input datasets that do not contain the minor-priority defect modules and their corresponding output.
+
+The following experiments show that the proposed system is able to make more precise estimations using the dataset containing only majorpriority defects.
+
+The improved system performance for Company C-Dataset is approximately 32.61%. Since Company C-Dataset does not have many minor-priority defects, the system performance does not improve drastically when the implementations are carried out using the datasets with only Major-Priority defects.
+
+The results of the 'initial system structure' show that the methods have many faulty defect predictions when the entire dataset is used.
+
+As a result, our proposed model shows that the performance of the system is much more satisfactory when the system is trained using the dataset including only the Major-Priority defects.

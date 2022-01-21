@@ -1,0 +1,1 @@
+Cours en visio sur zoom, accessible depuis l'ENT.
