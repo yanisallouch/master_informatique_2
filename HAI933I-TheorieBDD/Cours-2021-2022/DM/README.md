@@ -1,0 +1,1 @@
+Devoir à rendre au plus tard le 25 décembre. Le devoir est à rendre par groupes de 2, constitués au dernier cours. Me contacter au plus vite si vous étiez absents pendant ce cours. Les détails du sujet, ainsi que les groupes et les questions auxquelles ils ont à répondre, se trouvent dans le fichier ci-joint.

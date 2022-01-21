@@ -1,0 +1,13 @@
+Possible Questions in Exam 2:
+
+1. Write database queries using the relational algebra (RA) or first-order (FO) queries.
+2. Decide if two FO/RA queries are equivalent.
+3. Translate an FO query into an RA query and vice-versa.
+4. Describe the algorithm used to solve Boolean FO query entailment. Informally argue that this algorithm runs in polynomial time.
+5. Argue that the problem of Boolean CQ entailment is in NP.
+6. Check if a given CQ is acyclic. Present some algorithm that determines if a CQ is acyclic.
+7. Discuss how to construct a join tree for an acyclic query.
+8. Discuss the poly-time algorithm that solves acyclic Boolean CQ entailment.
+9. Argue that the problems of query answering, query entailment, and query emptiness can be reduced to each other.
+10. Decide if a CQ is subsumed or equivalent to another CQ.
+11. Minimise a given Boolean CQ.

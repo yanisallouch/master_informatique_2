@@ -1,0 +1,1 @@
+Cours à une école d'été (Reasoning Web 2014) : voir en particulier les sections 1, 2 et 3.1 pour les notions fondamentales des 3 premières semaines. 

@@ -1,0 +1,3 @@
+Rappel : petit contrôle de routine la semaine prochaine (jeudi 30).
+
+Au programme : tout ce qui a été vu en cours et exercices, hormis les distinctions entre les variantes de chase (connaître le chase naïf - oblivious - et la notion de modèle universel).
