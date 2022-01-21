@@ -1,0 +1,2 @@
+- C'est quoi "Joe's Own editor"
+- `CaNaPe` == `Cathode est Négatif` et `Anode est Positif` 
