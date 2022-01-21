@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:objetPersonnalisable="http://objetPersonnalisable/1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis uid="_BYX1oFN_EeyHNq_6Ln4d_A" selectedViews="_087WsFOAEeyHNq_6Ln4d_A" version="14.5.1.202106111100">
+    <semanticResources>objetPerso1.objetpersonnalisablepackage</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" uid="_087WsFOAEeyHNq_6Ln4d_A">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/myObjetPerso.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_1gpu0FOAEeyHNq_6Ln4d_A" name="new gamePersonnalisable" repPath="#_1gbFUFOAEeyHNq_6Ln4d_A" changeId="70b275cd-2673-420f-829d-fd084d5cf0cc">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/myObjetPerso.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='gamePersonnalisable']"/>
+        <target xmi:type="objetPersonnalisable:GammePersonnalisable" href="objetPerso1.objetpersonnalisablepackage#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram uid="_1gbFUFOAEeyHNq_6Ln4d_A">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_1hXggFOAEeyHNq_6Ln4d_A" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_1hXggVOAEeyHNq_6Ln4d_A" type="Sirius" element="_1gbFUFOAEeyHNq_6Ln4d_A" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_1jx7UFOAEeyHNq_6Ln4d_A" type="2001" element="_1jAfQFOAEeyHNq_6Ln4d_A">
+          <children xmi:type="notation:Node" xmi:id="_1kFdUFOAEeyHNq_6Ln4d_A" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_1kFdUVOAEeyHNq_6Ln4d_A" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_1kKV1VOAEeyHNq_6Ln4d_A" type="3003" element="_1jUoUFOAEeyHNq_6Ln4d_A">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_1kKV1lOAEeyHNq_6Ln4d_A" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1kKV11OAEeyHNq_6Ln4d_A"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_1jx7UVOAEeyHNq_6Ln4d_A" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1jx7UlOAEeyHNq_6Ln4d_A" x="768" y="192" width="100" height="100"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_1kKV0FOAEeyHNq_6Ln4d_A" type="2001" element="_1jeZUFOAEeyHNq_6Ln4d_A">
+          <children xmi:type="notation:Node" xmi:id="_1kKV01OAEeyHNq_6Ln4d_A" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_1kKV1FOAEeyHNq_6Ln4d_A" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_1kKV2FOAEeyHNq_6Ln4d_A" type="3003" element="_1jeZUVOAEeyHNq_6Ln4d_A">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_1kKV2VOAEeyHNq_6Ln4d_A" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1kKV2lOAEeyHNq_6Ln4d_A"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_1kKV0VOAEeyHNq_6Ln4d_A" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1kKV0lOAEeyHNq_6Ln4d_A" x="1020" y="238" width="100" height="100"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_-nL1gFOAEeyHNq_6Ln4d_A" type="2001" element="_-mjjYVOAEeyHNq_6Ln4d_A">
+          <children xmi:type="notation:Node" xmi:id="_-nO40FOAEeyHNq_6Ln4d_A" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_-nO40VOAEeyHNq_6Ln4d_A" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_BNdUMFOBEeyHNq_6Ln4d_A" type="3003" element="_BM56kFOBEeyHNq_6Ln4d_A">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_BNdUMVOBEeyHNq_6Ln4d_A" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BNdUMlOBEeyHNq_6Ln4d_A"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_-nL1gVOAEeyHNq_6Ln4d_A" fontName="Segoe UI"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-nL1glOAEeyHNq_6Ln4d_A" x="600" y="324" width="200" height="200"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_-nO40lOAEeyHNq_6Ln4d_A" type="2001" element="_-mkKcFOAEeyHNq_6Ln4d_A">
+          <children xmi:type="notation:Node" xmi:id="_-nQG8FOAEeyHNq_6Ln4d_A" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_-nQG8VOAEeyHNq_6Ln4d_A" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_BNdUM1OBEeyHNq_6Ln4d_A" type="3003" element="_BM56klOBEeyHNq_6Ln4d_A">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_BNdUNFOBEeyHNq_6Ln4d_A" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BNdUNVOBEeyHNq_6Ln4d_A"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_-nO401OAEeyHNq_6Ln4d_A" fontName="Segoe UI"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-nO41FOAEeyHNq_6Ln4d_A" x="252" y="291" width="200" height="200"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_vexPcFOBEeyHNq_6Ln4d_A" type="2001" element="_veJkYlOBEeyHNq_6Ln4d_A">
+          <children xmi:type="notation:Node" xmi:id="_vex2gFOBEeyHNq_6Ln4d_A" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_vex2gVOBEeyHNq_6Ln4d_A" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_1MDiYFOBEeyHNq_6Ln4d_A" type="3016" element="_1LBnoFOBEeyHNq_6Ln4d_A">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_1MDiYVOBEeyHNq_6Ln4d_A" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1MDiYlOBEeyHNq_6Ln4d_A"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_vexPcVOBEeyHNq_6Ln4d_A" fontName="Segoe UI"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vexPclOBEeyHNq_6Ln4d_A" width="200" height="200"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_vex2glOBEeyHNq_6Ln4d_A" type="2001" element="_veKygFOBEeyHNq_6Ln4d_A">
+          <children xmi:type="notation:Node" xmi:id="_veydkFOBEeyHNq_6Ln4d_A" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_veydkVOBEeyHNq_6Ln4d_A" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_1MEJcFOBEeyHNq_6Ln4d_A" type="3016" element="_1LC1wFOBEeyHNq_6Ln4d_A">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_1MEJcVOBEeyHNq_6Ln4d_A" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1MEJclOBEeyHNq_6Ln4d_A"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_vex2g1OBEeyHNq_6Ln4d_A" fontName="Segoe UI"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vex2hFOBEeyHNq_6Ln4d_A" x="318" y="18" width="200" height="200"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_1hXgglOAEeyHNq_6Ln4d_A"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_1jjR0VOAEeyHNq_6Ln4d_A" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_1jjR0lOAEeyHNq_6Ln4d_A"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_1jAfQFOAEeyHNq_6Ln4d_A" name="tasse" width="10" height="10" resizeKind="NSEW">
+      <target xmi:type="objetPersonnalisable:Objet" href="objetPerso1.objetpersonnalisablepackage#//@objets.0"/>
+      <semanticElements xmi:type="objetPersonnalisable:Objet" href="objetPerso1.objetpersonnalisablepackage#//@objets.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_1jUoUFOAEeyHNq_6Ln4d_A" labelSize="12" showIcon="false" labelPosition="node" color="239,41,41">
+        <description xmi:type="style:SquareDescription" href="platform:/resource/myObjetPerso.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='gamePersonnalisable']/@defaultLayer/@nodeMappings[name='ObjetNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/myObjetPerso.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='gamePersonnalisable']/@defaultLayer/@nodeMappings[name='ObjetNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_1jeZUFOAEeyHNq_6Ln4d_A" name="bol" width="10" height="10" resizeKind="NSEW">
+      <target xmi:type="objetPersonnalisable:Objet" href="objetPerso1.objetpersonnalisablepackage#//@objets.1"/>
+      <semanticElements xmi:type="objetPersonnalisable:Objet" href="objetPerso1.objetpersonnalisablepackage#//@objets.1"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_1jeZUVOAEeyHNq_6Ln4d_A" labelSize="12" showIcon="false" labelPosition="node" color="239,41,41">
+        <description xmi:type="style:SquareDescription" href="platform:/resource/myObjetPerso.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='gamePersonnalisable']/@defaultLayer/@nodeMappings[name='ObjetNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/myObjetPerso.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='gamePersonnalisable']/@defaultLayer/@nodeMappings[name='ObjetNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_-mjjYVOAEeyHNq_6Ln4d_A" name="impressionDeTexte" width="20" height="20" resizeKind="NSEW">
+      <target xmi:type="objetPersonnalisable:ElementDePersonnalisation" href="objetPerso1.objetpersonnalisablepackage#//@elementsdepersonnalisation.0"/>
+      <semanticElements xmi:type="objetPersonnalisable:ElementDePersonnalisation" href="objetPerso1.objetpersonnalisablepackage#//@elementsdepersonnalisation.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_BM56kFOBEeyHNq_6Ln4d_A" labelSize="12" showIcon="false" labelPosition="node" color="138,226,52">
+        <description xmi:type="style:SquareDescription" href="platform:/resource/myObjetPerso.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='gamePersonnalisable']/@defaultLayer/@nodeMappings[name='ElementPersonnalisationNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/myObjetPerso.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='gamePersonnalisable']/@defaultLayer/@nodeMappings[name='ElementPersonnalisationNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_-mkKcFOAEeyHNq_6Ln4d_A" name="impressionImage" width="20" height="20" resizeKind="NSEW">
+      <target xmi:type="objetPersonnalisable:ElementDePersonnalisation" href="objetPerso1.objetpersonnalisablepackage#//@elementsdepersonnalisation.1"/>
+      <semanticElements xmi:type="objetPersonnalisable:ElementDePersonnalisation" href="objetPerso1.objetpersonnalisablepackage#//@elementsdepersonnalisation.1"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_BM56klOBEeyHNq_6Ln4d_A" labelSize="12" showIcon="false" labelPosition="node" color="138,226,52">
+        <description xmi:type="style:SquareDescription" href="platform:/resource/myObjetPerso.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='gamePersonnalisable']/@defaultLayer/@nodeMappings[name='ElementPersonnalisationNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/myObjetPerso.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='gamePersonnalisable']/@defaultLayer/@nodeMappings[name='ElementPersonnalisationNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_veJkYlOBEeyHNq_6Ln4d_A" name="prix" width="20" height="20" resizeKind="NSEW">
+      <target xmi:type="objetPersonnalisable:CaracteristiqueVariable" href="objetPerso1.objetpersonnalisablepackage#//@elementsvariables.0"/>
+      <semanticElements xmi:type="objetPersonnalisable:CaracteristiqueVariable" href="objetPerso1.objetpersonnalisablepackage#//@elementsvariables.0"/>
+      <ownedStyle xmi:type="diagram:Ellipse" uid="_1LBnoFOBEeyHNq_6Ln4d_A" labelSize="12" showIcon="false" labelPosition="node" color="114,159,207">
+        <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/myObjetPerso.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='gamePersonnalisable']/@defaultLayer/@nodeMappings[name='CaracteristiqueVariableNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/myObjetPerso.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='gamePersonnalisable']/@defaultLayer/@nodeMappings[name='CaracteristiqueVariableNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_veKygFOBEeyHNq_6Ln4d_A" name="imageAImprimer" width="20" height="20" resizeKind="NSEW">
+      <target xmi:type="objetPersonnalisable:CaracteristiqueVariable" href="objetPerso1.objetpersonnalisablepackage#//@elementsvariables.1"/>
+      <semanticElements xmi:type="objetPersonnalisable:CaracteristiqueVariable" href="objetPerso1.objetpersonnalisablepackage#//@elementsvariables.1"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Ellipse" uid="_1LC1wFOBEeyHNq_6Ln4d_A" labelSize="12" showIcon="false" labelPosition="node" color="114,159,207">
+        <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/myObjetPerso.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='gamePersonnalisable']/@defaultLayer/@nodeMappings[name='CaracteristiqueVariableNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/myObjetPerso.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='gamePersonnalisable']/@defaultLayer/@nodeMappings[name='CaracteristiqueVariableNode']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/myObjetPerso.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='gamePersonnalisable']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_1gk2UFOAEeyHNq_6Ln4d_A"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/myObjetPerso.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='gamePersonnalisable']/@defaultLayer"/>
+    <target xmi:type="objetPersonnalisable:GammePersonnalisable" href="objetPerso1.objetpersonnalisablepackage#/"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>

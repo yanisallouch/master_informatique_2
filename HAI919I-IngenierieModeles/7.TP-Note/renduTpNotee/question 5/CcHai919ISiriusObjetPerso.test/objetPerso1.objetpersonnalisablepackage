@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objetPersonnalisable:GammePersonnalisable xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:objetPersonnalisable="http://objetPersonnalisable/1.0">
+  <objets nom="tasse"/>
+  <objets nom="bol"/>
+  <elementsdepersonnalisation nom="impressionDeTexte"/>
+  <elementsdepersonnalisation nom="impressionImage"/>
+  <elementsvariables nom="prix"/>
+  <elementsvariables nom="imageAImprimer"/>
+</objetPersonnalisable:GammePersonnalisable>

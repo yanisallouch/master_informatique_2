@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated maquette -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="maquette.presentation.MaquetteModelWizardID"
+            name="%_UI_MaquetteModelWizard_label"
+            class="maquette.presentation.MaquetteModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/MaquetteModelFile.gif">
+         <description>%_UI_MaquetteModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated maquette -->
+      <editor
+            id="maquette.presentation.MaquetteEditorID"
+            name="%_UI_MaquetteEditor_label"
+            icon="icons/full/obj16/MaquetteModelFile.gif"
+            extensions="maquette"
+            class="maquette.presentation.MaquetteEditor"
+            contributorClass="maquette.presentation.MaquetteActionBarContributor">
+      </editor>
+   </extension>
+
+</plugin>

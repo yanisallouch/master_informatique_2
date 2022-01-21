@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/diagram/description/tool/1.1.0" xmlns:tool_1="http://www.eclipse.org/sirius/description/tool/1.1.0" xmlns:validation="http://www.eclipse.org/sirius/description/validation/1.1.0" name="maquette" version="12.0.0.2017041100">
+  <ownedViewpoints name="MyViewpoint">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="formations" label="diagramme de formations" initialisation="true" domainClass="maquette.Formations" enablePopupBars="true">
+      <validationSet>
+        <ownedRules xsi:type="validation:SemanticValidationRule" level="ERROR" message="La formations  ne respecte pas le nombre de semestre" targetClass="maquette.Formation">
+          <audits auditExpression="[self.nbSemestres&lt;=4/]"/>
+        </ownedRules>
+      </validationSet>
+      <defaultLayer name="Default">
+        <nodeMappings name="UENode" semanticCandidatesExpression="[self.formations->collect(uesPotentielles)/]" domainClass="maquette.UE">
+          <style xsi:type="style:SquareDescription" labelSize="12" showIcon="false" labelExpression="[self.nom/]" sizeComputationExpression="[2*self.nbECTS/]">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
+          </style>
+          <conditionnalStyles predicateExpression="[not self.disciplinaire/]">
+            <style xsi:type="style:SquareDescription" labelSize="12" showIcon="false" labelExpression="[self.nom/]" sizeComputationExpression="[2*self.nbECTS/]">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            </style>
+          </conditionnalStyles>
+        </nodeMappings>
+        <nodeMappings name="FormationNode" domainClass="maquette.Formation">
+          <style xsi:type="style:EllipseNodeDescription" labelSize="12" showIcon="false" labelExpression="[self.nom/]" sizeComputationExpression="[2*self.nbSemestres/]" labelPosition="node">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='orange']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="SemestreNode" domainClass="maquette.Semestre">
+          <style xsi:type="style:BundledImageDescription" labelSize="12" showIcon="false" labelExpression="['S-'+self.numero/]" sizeComputationExpression="[2*self.nbECTS/]">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='purple']"/>
+          </style>
+        </nodeMappings>
+        <edgeMappings name="SemestreToUEEdge" sourceMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='formations']/@defaultLayer/@nodeMappings[name='SemestreNode']" targetMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='formations']/@defaultLayer/@nodeMappings[name='UENode']" targetFinderExpression="[self.ues/]">
+          <style targetArrow="NoDecoration" sizeComputationExpression="10">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_red']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <toolSections name="SectionTool">
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="NodeCreationTool" nodeMappings="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='formations']/@defaultLayer/@nodeMappings[name='FormationNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="maquette.Formation" referenceName="formations"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool_1:SelectionWizardDescription" name="UE Creation Wizard In Formation" candidatesExpression="feature:formations" multiple="true">
+            <element name="element"/>
+            <containerView name="containerView"/>
+            <container name="container"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[element]">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="maquette.UE" referenceName="uesPotentielles"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="Lien Semestre UE" edgeMappings="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='formations']/@defaultLayer/@edgeMappings[name='SemestreToUEEdge']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="ues" valueExpression="[target/]"/>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+      </defaultLayer>
+      <additionalLayers name="CompetenceLayer" activeByDefault="true">
+        <nodeMappings name="CompetenceNode" domainClass="maquette.Compétence">
+          <style xsi:type="style:SquareDescription" borderSizeComputationExpression="5" labelSize="12" showIcon="false" labelExpression="[self.nom/]" sizeComputationExpression="5" width="5">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_chocolate']"/>
+          </style>
+        </nodeMappings>
+        <edgeMappings name="CompetenceToUEEdge" sourceMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='formations']/@additionalLayers[name='CompetenceLayer']/@nodeMappings[name='CompetenceNode']" targetMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='formations']/@defaultLayer/@nodeMappings[name='UENode']" targetFinderExpression="[self.ues/]">
+          <style sourceArrow="InputArrow" sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+      </additionalLayers>
+    </ownedRepresentations>
+    <ownedJavaExtensions qualifiedClassName="maquette.design.Services"/>
+  </ownedViewpoints>
+</description:Group>

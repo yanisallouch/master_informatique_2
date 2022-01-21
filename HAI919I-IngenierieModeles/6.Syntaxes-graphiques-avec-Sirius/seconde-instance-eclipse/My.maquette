@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<maquette:Formations xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:maquette="fs://maquette">
+  <formations nbSemestres="4" nom="M2-GL">
+    <semestres numero="3" ues="//@formations.0/@uesPotentielles.0 //@formations.0/@uesPotentielles.1"/>
+    <semestres numero="2"/>
+    <semestres numero="1"/>
+    <semestres numero="4"/>
+    <compétencesEnseignées nom="idme" description="Une competence  IDM quoi" ues="//@formations.0/@uesPotentielles.0"/>
+    <uesPotentielles nbECTS="15" compétence="//@formations.0/@compétencesEnseignées.0" nom="IDM"/>
+    <uesPotentielles nbECTS="15" nom="IA-GL" disciplinaire="false"/>
+  </formations>
+  <formations nbSemestres="15" nom="M1-GL"/>
+</maquette:Formations>
