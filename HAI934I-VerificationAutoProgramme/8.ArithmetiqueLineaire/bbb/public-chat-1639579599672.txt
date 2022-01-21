@@ -1,0 +1,126 @@
+            [13:09] <br />Bienvenue à <b>Visio</b> !<br /><br />Pour obtenir de l'aide sur l'utilisation de BigBlueButton, consultez ces (courtes) <a><u>vidéos tutorielles</u></a>.<br /><br />Pour rejoindre l'audio, cliquez sur l'icône du téléphone (en haut au centre). <b>Veuillez utiliser un casque pour ne pas causer de bruit de fond aux autres.</b><br /><br />Cette session peut être enregistrée.
+[13:10] Blanchard Guilhem : oui
+[13:10] Hebiret Hayaat : OUI
+[13:10] Beauget Denis : Oui
+[13:10] Begoug Mahi : oui
+[13:10] Hebiret Hayaat : mdr
+[13:10] Blanchard Guilhem : bonjour
+[13:11] Canton Condes Alexandre : Bonjour :)
+[13:11] Allouch Yanis : Bonjour !
+[13:14] Blanchard Guilhem : 5/5
+[13:14] Hebiret Hayaat : Oui , bonjour !
+[13:14] Canta Thomas : Bonjourno !
+[13:14] Moutet Jordan : Bonjour
+[13:15] Beauget Denis : Bonjour
+[13:15] Bonneaud Mael : Bonjour
+[13:16] Blanchard Guilhem : parfait
+[13:16] Kherraf Nabil : 5/5
+[13:16] Bonneaud Mael : oui
+[13:16] Canta Thomas : Niquel !
+[13:19] Bonneaud Mael : oui
+[13:19] Lauret Nicolas : oui
+[13:20] Canton Condes Alexandre : ça n'a pas sauté chez moi
+[13:20] Canton Condes Alexandre : j'ai Q et Z
+[13:20] Bonneaud Mael : chez moi aussi ça saute ( firefox)
+[13:20] Canton Condes Alexandre : J'ai dl le pdf et je l'ouvre avec un visualisateur pdf
+[13:22] Moutet Jordan : Je pense que c'est par rapport au BBB qu'il y a un problème, pas dans le pdf même
+[13:24] Bonneaud Mael : oui
+[13:24] Adolphe Benjamin : oui
+[13:24] Allouch Yanis : oui
+[13:29] Bonneaud Mael : oui
+[13:31] Bonneaud Mael : +1
+[13:31] El Atillah Yassine : 1
+[13:31] Moutet Jordan : +1
+[13:31] Canton Condes Alexandre : moi
+[13:31] Bonneaud Mael : moi*
+[13:31] Canton Condes Alexandre : GL
+[13:31] Moutet Jordan : Algo on l'a vu
+[13:31] Bonneaud Mael : j'en ai fais en licence à avignon
+[13:31] Canton Condes Alexandre : UE algo linéaire
+[13:31] Canton Condes Alexandre : optionnel
+[13:32] Blanchard Guilhem : j'ai pas vu en GL
+[13:49] Lauret Nicolas : oui
+[13:49] Bonneaud Mael : oui
+[14:11] Adolphe Benjamin : pas fait
+[14:11] Blanchard Guilhem : peut etre en L1 ou L2
+[14:11] Blanchard Guilhem : mais pas recement
+[14:11] Bonneaud Mael : il y a longtemps
+[14:11] Duvillard Tiemen : les algos ont a vu le simplexe et le branch and bound l'année derniere
+[14:12] Duvillard Tiemen : Avec Rodolphe Giroudeau
+[14:17] Beauget Denis : Oui
+[14:24] Beauget Denis : Oui
+[14:24] Bonneaud Mael : oui
+[14:24] Pires Andrea : oui
+[14:25] Adolphe Benjamin : petite question mais vous avez les notes du dernier devoir?
+[14:25] Adolphe Benjamin : oui
+[14:25] Blanchard Guilhem : avant les vacances
+[14:26] Pires Andrea : mouais
+[14:26] Adolphe Benjamin : super cadeau de noël
+[14:26] Canta Thomas : Les corrigées pas, ça pourrait vous gâcher vos vacances (les notres aussi)
+[14:26] Bonneaud Mael : le père noël nous donneras un petit bonus ^^
+[14:26] Beauget Denis : Pour l'exam il y aura tout depuis le début ou que le post CC ?
+[14:26] Blanchard Guilhem : 😭
+[14:26] Adolphe Benjamin : :'(
+[14:26] Adolphe Benjamin : toujours 1h?
+[14:26] Pires Andrea : non c 2h
+[14:27] Adolphe Benjamin : ah ouais on a tout ça?
+[14:27] Beauget Denis : 12 Janvier
+[14:27] Pires Andrea : jespere juste que ce sera pas trop long mdr
+[14:27] Bonneaud Mael : c'est le 12
+[14:27] Adolphe Benjamin : je savais pas que c'était dispo
+[14:27] Adolphe Benjamin : merci
+[14:27] Teeluck Yashveer : les exams avec tous  documents autorisés?
+[14:28] Adolphe Benjamin : documents sur papiers ?
+[14:28] Adolphe Benjamin : c'est pas bon pour les arbres
+[14:28] Kaci Ahmed : pouvez vous nous envoyer des anals svp ?
+[14:28] Moutet Jordan : Depuis notre cc de contrainte
+[14:29] Pires Andrea : ah on est le test ?
+[14:33] Duvillard Tiemen : pas encore
+[14:35] Beauget Denis : Pourquoi - 5x3  dans la première équation ?
+[14:36] Beauget Denis : Ah oui d'accord merci
+[14:38] Blanchard Guilhem : comment on sais si c'est plus grand ou plus petit que 0 le s& ?
+[14:38] Blanchard Guilhem : s1
+[14:54] Beauget Denis : Je comprend pas comment on vérifie les bornes avec les alphas ?
+[14:55] Beauget Denis : ils sont toujours à zéro au départ donc ?
+[14:58] Adolphe Benjamin : augmenter s2 de 1?
+[15:08] Blanchard Guilhem : oui
+[15:08] Canta Thomas : oui
+[15:08] Bonneaud Mael : oui
+[15:08] El Atillah Yassine : oui l
+[15:08] Kaci Ahmed : oui
+[15:09] Blanchard Guilhem : oui
+[15:09] Bonneaud Mael : oui
+[15:09] Canta Thomas : ouip
+[15:10] Blanchard Guilhem : l'inverse pour les 2 derniere
+[15:12] Bonneaud Mael : et pour l'exam on pourra tomber sur un qui sera insatisfiable ?
+[15:13] Bonneaud Mael : ok
+[15:13] Blanchard Guilhem : noooon, ça vass
+[15:13] Bonneaud Mael : nonon c'est bon :D
+[15:13] Simione Jeremy : ca va aller merci quand meme
+[15:18] Beauget Denis : Pourquoi pivot avec x et pas y ?
+[15:18] Pires Andrea : pk on fait le pivot avec x ?
+[15:18] Beauget Denis : Ok merci
+[15:45] Beauget Denis : Merci !
+[15:45] Canta Thomas : Merci ! Meilleur voeux !
+[15:45] Hebiret Hayaat : merci !
+[15:45] Kaci Ahmed : merci
+[15:45] Adolphe Benjamin : Merci beaucoup au revoir
+[15:45] Commins Matthieu : merci
+[15:45] El Atillah Yassine : merci
+[15:45] Reiter Maxime : Merci ! Au revoir
+[15:45] Simione Jeremy : au revoir
+[15:45] Begoug Mahi : Merci
+[15:45] Romestant Pierre : Merci ! au revoir
+[15:45] Filali Yasmine : au revoir
+[15:45] Moutet Jordan : au revoir
+[15:45] Simione Jeremy : merci a vous
+[15:45] Blanchard Guilhem : merci,
+[15:45] Sanz Thomas : Merci, au revoir
+[15:45] Kherraf Nabil : Bonnes fêtes !
+[15:45] Berkane Ibrahim Abouelyatim : merci
+[15:45] Canton Condes Alexandre : au revoir !
+[15:45] Tialati Nizar : au revoir!
+[15:45] Brahimi Antoine : merci au revoir
+[15:45] Duchon Damien : au revoiur
+[15:45] El Atillah Yassine : n'oublier pas de sauvegarder
+[15:45] Simione Jeremy : et bonnes fetes evidemment
