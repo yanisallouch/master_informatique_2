@@ -49,6 +49,8 @@ CREATE
 RETURN s1, s2, s3, s4, li1, la1, la2, la3
 ```
 
+![graph2.1.png](./graph2.1.png)
+
 ```cypher
 MATCH (o:Station {nom:'Occitanie'})
 CREATE
@@ -57,6 +59,8 @@ CREATE
 	(o) -[:STOP_DE]-> (l)
 ```
 
+![graph2.2.png](./graph2.2.png)
+
 Vous choisirez le nom des stations, le numéro (num) des lignes, et la distance des liaisons pour donner une étiquette aux noeuds visualisés et vous mentionnerez les types de chacun  des noeuds. Les autres propriétés des noeuds ne seront pas représentées.
 
 2. Une requête de consultation en langage Cypher, vous est donnée qui porte sur le graphe qui vient d'être créé. Vous donnerez la signification de cette requête, ainsi que le résultat renvoyé par cette requête.
@@ -64,6 +68,16 @@ Vous choisirez le nom des stations, le numéro (num) des lignes, et la distance 
 ```cypher
 MATCH (l:Ligne {type:'bus'}) <-[a:APPARTIENT_A] - () <-[st:STOP_DE]- (s:Station)
 RETURN DISTINCT l.nom, s.nom
+```
+
+```
+╒══════════════════════════╤══════════════╕
+│"l.nom"                   │"s.nom"       │
+╞══════════════════════════╪══════════════╡
+│"Euromedecine-Pas du Loup"│"Occitanie"   │
+├──────────────────────────┼──────────────┤
+│"Euromedecine-Pas du Loup"│"Saint-Priest"│
+└──────────────────────────┴──────────────┘
 ```
 
 Grâce a cette requete, l'utilisateur souhaite récupéré tous les noms de station de bus et les noms des lignes de bus du réseau de la TAM.
@@ -75,7 +89,32 @@ MATCH (l1:Liaison) <-[:STOP_DE]- (s:Station) -[:STOP_DE]-> (l2:Liaison)
 RETURN l1, s , l2
 ```
 
-Par cette requète, l'utilisateur désire connaitre les stations et les distances entre stations composants le sous-réseau obtenu (sans les ""terminus"" noeuds avec un seul arc sortant "stop_de").
+```
+╒═════════════════╤══════════════════════════════════════════════════════════════════════╤═════════════════╕
+│"l1"             │"s"                                                                   │"l2"             │
+╞═════════════════╪══════════════════════════════════════════════════════════════════════╪═════════════════╡
+│{"distance":1000}│{"nom":"Occitanie","latitude":43.63435811,"longitude":3.84863696}     │{"distance":400} │
+├─────────────────┼──────────────────────────────────────────────────────────────────────┼─────────────────┤
+│{"distance":500} │{"nom":"Occitanie","latitude":43.63435811,"longitude":3.84863696}     │{"distance":400} │
+├─────────────────┼──────────────────────────────────────────────────────────────────────┼─────────────────┤
+│{"distance":400} │{"nom":"Occitanie","latitude":43.63435811,"longitude":3.84863696}     │{"distance":1000}│
+├─────────────────┼──────────────────────────────────────────────────────────────────────┼─────────────────┤
+│{"distance":500} │{"nom":"Occitanie","latitude":43.63435811,"longitude":3.84863696}     │{"distance":1000}│
+├─────────────────┼──────────────────────────────────────────────────────────────────────┼─────────────────┤
+│{"distance":400} │{"nom":"Occitanie","latitude":43.63435811,"longitude":3.84863696}     │{"distance":500} │
+├─────────────────┼──────────────────────────────────────────────────────────────────────┼─────────────────┤
+│{"distance":1000}│{"nom":"Occitanie","latitude":43.63435811,"longitude":3.84863696}     │{"distance":500} │
+├─────────────────┼──────────────────────────────────────────────────────────────────────┼─────────────────┤
+│{"distance":500} │{"nom":"Hopital Lapeyronie","latitude":43.63166867,"longitude":3.85260│{"distance":1200}│
+│                 │055}                                                                  │                 │
+├─────────────────┼──────────────────────────────────────────────────────────────────────┼─────────────────┤
+│{"distance":1200}│{"nom":"Hopital Lapeyronie","latitude":43.63166867,"longitude":3.85260│{"distance":500} │
+│                 │055}                                                                  │                 │
+└─────────────────┴──────────────────────────────────────────────────────────────────────┴─────────────────┘
+```
+
+~~Par cette requète, l'utilisateur désire connaitre les stations et les distances entre stations composants le sous-réseau obtenu (sans les ""terminus"" noeuds avec un seul arc sortant "stop_de").~~
+Toutes les stations qui sont entre 2 stations.
 Le sous-graphe est composé des liaisons `[l, la2, la3, la1]` et des stations `[s2, s1]`
 
 4. Vous écrirez en langage Cypher, la requête : "donner le nombre de stations qui sont situées sur la ligne portant le nom Mosson-Odysseum"
@@ -83,6 +122,14 @@ Le sous-graphe est composé des liaisons `[l, la2, la3, la1]` et des stations `[
 ```cypher
 MATCH (s:Station)-[:STOP_DE]-(:Liaison)-[:APPARTIENT_A]-(l:Ligne {nom:"Mosson-Odysseum"})
 RETURN distinct count(s) as nb_station_ligne_1
+```
+
+```
+╒════════════════════╕
+│"nb_station_ligne_1"│
+╞════════════════════╡
+│6                   │
+└────────────────────┘
 ```
 
 5. Le choix de représentation arrêté pour représenter les lignes, les stations et leurs connexions manque d'efficacité, proposez une simplification du modèle pour le rendre plus  performant.
@@ -233,8 +280,8 @@ function(keys, values) {
 }
 ```
 
-- Compréhension : On veut calculer la distance total de la ligne 1
-- Résultat : 2653m
+- Compréhension : On veut calculer la station avec la distance maximale
+- Résultat : "Hopital Lapeyronie" : "912"
 
 ```js
 

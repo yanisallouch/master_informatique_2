@@ -4,6 +4,4 @@
 
 SELECT ?v0 WHERE {
 	?v0	dc:Location	%v1% .
-	?v0	wsdbm:gender	%v3% .
-	?v0	rdf:type	wsdbm:Role2 .
-}
+	?v0	wsdbm:gender	%v3% . }

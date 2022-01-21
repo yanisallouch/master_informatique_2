@@ -3,5 +3,4 @@
 
 SELECT ?v0 WHERE {
 	?v0	gr:includes	%v1% .
-	?v0	sorg:eligibleRegion	%v2% .
-}
+	?v0	sorg:eligibleRegion	%v2% . }

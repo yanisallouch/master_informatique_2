@@ -1,5 +1,3 @@
 #mapping v2 wsdbm:Country uniform
 SELECT ?v0 WHERE {
-	?v0	sorg:eligibleRegion	%v2% .
-
-}
+	?v0	sorg:eligibleRegion	%v2% . }

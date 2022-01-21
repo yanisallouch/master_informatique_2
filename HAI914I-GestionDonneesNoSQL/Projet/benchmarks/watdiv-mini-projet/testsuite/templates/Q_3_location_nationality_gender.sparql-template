@@ -5,5 +5,4 @@
 SELECT ?v0 WHERE {
 	?v0	dc:Location	%v1% .
 	?v0	sorg:nationality	%v2% .
-	?v0	wsdbm:gender	%v3% .
-}
+	?v0	wsdbm:gender	%v3% . }

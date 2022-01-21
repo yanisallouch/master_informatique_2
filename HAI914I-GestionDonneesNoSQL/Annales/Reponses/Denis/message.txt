@@ -1,0 +1,13 @@
+```Vous expliquerez les mérites comparés des systèmes NOSQL face aux SGBD relationnels, en exploitant au besoin les notions suivantes :
+
+Dans un premier temps, il faut comprendre pourquoi on peut comparer ces deux SGBD. On se rend compte notamment à cause de l'émergence de problème récent comme l'augmentation du volume des données.
+et de l'interconnexion de ces données que les SGBD relationnels ne répondent plus totalement à la problématique. Les SGBD NoSQL répondent, eux, à ses problématiques à travers leur fléxibilité. (schémas ouvert dit semi-structuré.)
+et leur adaptabilité (évolution du schéma) cela permet dans des cas nécessitant un flux transactionnel important ou une grande distribution des données de s'orienter vers les SGBD NoSQL.
+Ce n'est pas tout, les SGBD NoSQL se démarque également à travers 2 techniques : la réplication et le partitionnement, la première bien plus qu'une simple sauvegarde ou un back-up permet d'assurer la disponibilité
+Constante du système (En cas de panne d’un serveur, d’un nœud ou d’un disque, la tâche effectuée par le composant défectueux peut être immédiatement prise en charge par un autre composant.) et la seconde permet
+de répartir les données sans altérer le schéma initial, ces 2 techniques permette à l'architecture NoSQL de s'adapter à une montée en charge à travers la scalabilité horizontale (plus de serveurs (noeuds) avec une répartition de la charge)
+et la scalabilité verticale (rendre plus performant les serveurs en place avec de l'ajout hardware (cpu,RAM..)). La persistance polyglotte est également un élément supplémentaire à prendre en compte,
+venant du terme programmation polyglotte (un principe qui consiste à choisir le langage approprié pour répondre à une problématique spécifique) comme on l'imagine, cela revient à choisir le bon SGBD pour la tâche à effectué. Si couplé une base de donnée PostGresSQL et MySQL n'a
+Aucun intérêt, coupler une base de données relationnelles et une base de données NoSQL permet souvent de répondre à des problématiques spécifiques (Exemple : application de livraison -> SGBD Relationnels pour la bdd client,
+Neo4J pour la recherche des chemins les plus cours pour les livreurs.). Enfin, le postulat CAP (Consistency, Availability, Parition tolerance) définit qu'un système distribué n'est à même de satisfaire les 3 principes simultanément,
+les SGBD relationnels sont tous de type CA avec peu ou pas de P (peu de noeuds) les systèmes NoSQL, eux, proposent des alternatives incluant le P (comme CouchDB orienté document préférant AP à l'instar de Neo4J orienté graphe, mais préférant le CA).``` Je me suis chauffé hésité pas

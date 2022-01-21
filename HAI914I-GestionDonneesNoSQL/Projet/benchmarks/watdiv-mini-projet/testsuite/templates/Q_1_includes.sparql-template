@@ -1,5 +1,3 @@
 #mapping v1 wsdbm:Product uniform
 SELECT ?v0  WHERE {
-	?v0	gr:includes	%v1% .
-}
-
+	?v0	gr:includes	%v1% . }
